@@ -704,3 +704,35 @@ LogInit: Object subsystem initialized
 [2019.04.05-04.02.16:085][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.04.05-04.02.16:416][620]LogSavePackage: Moving '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap322B68F1477513A5A5ECBFB7C3E1B337.tmp' to '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.04.05-04.02.16:447][620]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.358
+[2019.04.05-04.13.25:497][853]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.04.05-04.13.47:129][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.04.05-04.13.48:332][921]Cmd: EDIT COPY
+[2019.04.05-04.13.50:328][ 38]Cmd: EDIT PASTE
+[2019.04.05-04.13.51:477][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.04.05-04.14.34:328][435]LogSavePackage: Moving '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_Auto473CD4A6548626CF53DF27589A0F4A9A5.tmp' to '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2019.04.05-04.14.34:360][435]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.277
+[2019.04.05-04.14.34:360][435]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2019.04.05-04.15.12:275][928]Cmd: EDIT COPY
+[2019.04.05-04.15.12:593][947]Cmd: EDIT PASTE
+[2019.04.05-04.15.30:258][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.04.05-04.15.37:481][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.04.05-04.15.52:771][230]Cmd: EDIT COPY
+[2019.04.05-04.15.53:283][259]Cmd: EDIT PASTE
+[2019.04.05-04.16.19:716][753]Cmd: EDIT COPY
+[2019.04.05-04.16.23:186][955]Cmd: TRANSACTION UNDO
+[2019.04.05-04.16.23:186][955]LogEditorTransaction: Undo Move Actors
+[2019.04.05-04.16.28:159][210]Cmd: EDIT PASTE
+[2019.04.05-04.16.29:021][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.04.05-04.17.04:026][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.04.05-04.17.17:528][ 95]Cmd: EDIT COPY
+[2019.04.05-04.17.18:357][144]Cmd: EDIT PASTE
+[2019.04.05-04.17.54:409][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-04.21.42:921][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.04.05-04.21.44:204][886]Cmd: EDIT COPY
+[2019.04.05-04.21.46:175][  1]Cmd: EDIT PASTE
+[2019.04.05-04.21.47:095][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.04.05-04.22.11:736][495]Cmd: EDIT COPY
+[2019.04.05-04.22.12:338][530]Cmd: EDIT PASTE
+[2019.04.05-04.23.10:972][237]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.05-04.23.11:229][237]LogSavePackage: Moving '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMapCC72AE164E2D24962D9E6EABD0192E9D.tmp' to '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.05-04.23.11:874][237]LogSavePackage: Moving '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_BuiltDataCB155CB9417B7726123D8B94CA6F48B4.tmp' to '../../../../../../Users/brown1009/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
