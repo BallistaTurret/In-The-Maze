@@ -1,4 +1,4 @@
-﻿Log file open, 04/05/19 15:28:48
+﻿Log file open, 04/09/19 19:09:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: In_The_Maze
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.617839
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.301296
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.609s to configure plugins.
+LogStreaming: Display: Took  0.181s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,17 +114,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU:         Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz, GPU: Intel(R) HD Graphics
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 745
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,505 +147,580 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.015s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.05-19.28.51:587][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.05-19.28.51:587][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.05-19.28.51:676][  0]LogHAL: Display: Platform has ~ 8 GB [8491921408 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.05-19.28.51:676][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.05-19.28.51:686][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.05-19.28.51:743][  0]LogInit: Computer: THE-AFTERMATH
-[2019.04.05-19.28.51:743][  0]LogInit: User: User
-[2019.04.05-19.28.51:743][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.05-19.28.51:743][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.04.05-19.28.51:743][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.04.05-19.28.51:743][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.05-19.28.51:743][  0]LogMemory: Process Physical Memory: 100.33 MB used, 100.33 MB peak
-[2019.04.05-19.28.51:743][  0]LogMemory: Process Virtual Memory: 84.05 MB used, 84.05 MB peak
-[2019.04.05-19.28.51:743][  0]LogMemory: Physical Memory: 5559.21 MB used,  2539.31 MB free, 8098.53 MB total
-[2019.04.05-19.28.51:743][  0]LogMemory: Virtual Memory: 4622.81 MB used,  2539.31 MB free, 134217728.00 MB total
-[2019.04.05-19.28.52:585][  0]LogInit: Using OS detected language (en-US).
-[2019.04.05-19.28.52:586][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.05-19.28.52:681][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.05-19.28.53:668][  0]LogStreaming: Display: Took  1.054s to InitEngineTextLocalization.
-[2019.04.05-19.28.53:679][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.05-19.28.54:346][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.05-19.28.54:346][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.05-19.29.08:019][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2019.04.05-19.29.08:053][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.05-19.29.09:938][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.04.05-19.29.09:938][  0]LogD3D11RHI:       1977/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.05-19.29.09:945][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 10_0)
-[2019.04.05-19.29.09:945][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.04.05-19.29.09:950][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.05-19.29.09:950][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.05-19.29.09:950][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.05-19.29.09:980][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.05-19.29.09:981][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.05-19.29.10:014][  0]LogWindows: EnumDisplayDevices:
-[2019.04.05-19.29.10:015][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:0 D:1)
-[2019.04.05-19.29.10:015][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
-[2019.04.05-19.29.10:016][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
-[2019.04.05-19.29.10:019][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.04.05-19.29.10:019][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.04.05-19.29.10:020][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.04.05-19.29.10:020][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.04.05-19.29.10:020][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.04.05-19.29.10:020][  0]LogD3D11RHI:   Driver Version: 419.67 (internal:25.21.14.1967, unified:419.67)
-[2019.04.05-19.29.10:020][  0]LogD3D11RHI:      Driver Date: 3-17-2019
-[2019.04.05-19.29.10:021][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
-[2019.04.05-19.29.10:113][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.05-19.29.10:466][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.05-19.29.10:642][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Intermediate/Shaders/WorkingDirectory/15776/).
-[2019.04.05-19.29.10:643][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/21F36A3E43524CDE093A7CB2DAAD0691/'.
-[2019.04.05-19.29.12:045][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.05-19.29.12:088][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.05-19.29.12:134][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.05-19.29.12:446][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.05-19.29.12:649][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.05-19.29.12:744][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.05-19.29.12:790][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.05-19.29.12:837][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.05-19.29.12:876][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.05-19.29.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-19.29.13:439][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.05-19.29.13:646][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.05-19.29.13:646][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.05-19.29.13:710][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.05-19.29.13:710][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.05-19.29.13:759][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.05-19.29.13:795][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.05-19.29.13:857][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.05-19.29.13:947][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.05-19.29.13:995][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.05-19.29.13:995][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.05-19.29.15:773][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.05-19.29.15:774][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.05-19.29.15:774][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.05-19.29.15:792][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.05-19.29.25:512][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.05-19.29.26:049][  0]LogDerivedDataCache: Loaded boot cache 0.54s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.05-19.29.26:050][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.05-19.29.26:050][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.05-19.29.26:050][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.05-19.29.26:050][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.05-19.29.26:050][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.05-19.29.26:143][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.05-19.29.26:157][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.05-19.29.26:157][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.05-19.29.26:157][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.05-19.29.26:283][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.05-19.29.26:347][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.05-19.29.26:480][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.05-19.29.27:621][  0]LogAssetRegistry: FAssetRegistry took 0.0464 seconds to start up
-[2019.04.05-19.29.36:426][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.05-19.29.40:394][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.05-19.29.40:683][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.05-19.29.40:683][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.05-19.29.40:718][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.05-19.29.40:718][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.05-19.29.41:548][  0]LogNetVersion: In_The_Maze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1726018356)
-[2019.04.05-19.29.52:165][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.490366 seconds
-[2019.04.05-19.29.52:387][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.04.05-19.29.52:387][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.04.05-19.29.52:387][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.05-19.30.43:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.05-19.30.43:813][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.05-19.30.46:453][  0]SourceControl: Source control is disabled
-[2019.04.05-19.30.53:101][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.05-19.30.53:562][  0]LogOcInput: OculusInput pre-init called
-[2019.04.05-19.30.55:266][  0]LogEngine: Initializing Engine...
-[2019.04.05-19.31.01:713][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2019.04.05-19.31.01:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.04.05-19.31.01:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.05-19.31.01:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.006 s
-[2019.04.05-19.31.01:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.05-19.31.02:428][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.05-19.31.03:108][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.05-19.31.03:592][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.05-19.31.03:673][  0]LogInit: FAudioDevice initialized.
-[2019.04.05-19.31.03:686][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.05-19.31.03:846][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.05-19.31.03:856][  0]LogInit: Texture streaming: Enabled
-[2019.04.05-19.31.04:127][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.05-19.31.04:906][  0]LogInit: Transaction tracking system initialized
-[2019.04.05-19.31.05:756][  0]BlueprintLog: New page: Editor Load
-[2019.04.05-19.31.09:189][  0]LocalizationService: Localization service is disabled
-[2019.04.05-19.31.14:421][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/' took 0.09s
-[2019.04.05-19.31.14:422][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.05-19.31.14:441][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.05-19.31.14:504][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.05-19.31.14:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.05-19.31.14:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.05-19.31.14:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.05-19.31.14:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.05-19.31.23:093][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.05-19.31.23:834][  0]LightingResults: New page: Lighting Build
-[2019.04.05-19.31.24:323][  0]MapCheck: New page: Map Check
-[2019.04.05-19.31.24:323][  0]LightingResults: New page: Lighting Build
-[2019.04.05-19.31.29:487][  0]LogTexture: Display: Building textures: ghoul (AutoDXT, 500X500)
-[2019.04.05-19.31.29:487][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
-[2019.04.05-19.31.29:989][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
-[2019.04.05-19.31.29:989][  0]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
-[2019.04.05-19.31.30:694][  0]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.04.05-19.31.30:694][  0]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.04.05-19.31.30:694][  0]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.05-19.31.30:694][  0]LogStaticMesh: Building static mesh bigboy...
-[2019.04.05-19.31.30:769][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Props/Import/bigboy.bigboy
-[2019.04.05-19.31.32:279][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
-[2019.04.05-19.31.32:279][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
-[2019.04.05-19.31.32:279][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
-[2019.04.05-19.31.32:279][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
-[2019.04.05-19.31.32:279][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
-[2019.04.05-19.31.32:297][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 32X32)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
-[2019.04.05-19.31.33:837][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
-[2019.04.05-19.31.34:952][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.05-19.31.37:613][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.05-19.31.40:720][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.05-19.31.41:135][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 415.12ms to complete.
-[2019.04.05-19.31.41:188][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 18.376
-[2019.04.05-19.31.51:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.31.51:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.31.51:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.31.51:829][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.31.52:173][  0]LogCollectionManager: Loaded 0 collections in 0.009323 seconds
-[2019.04.05-19.31.53:195][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/Collections/' took 0.01s
-[2019.04.05-19.31.53:195][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/Developers/User/Collections/' took 0.01s
-[2019.04.05-19.31.53:195][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/Collections/' took 0.01s
-[2019.04.05-19.31.53:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.04.05-19.31.53:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0475 seconds. Added 2572 classes and 603 folders.
-[2019.04.05-19.31.54:267][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.05-19.31.57:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.05-19.31.57:601][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.04.05-19.31.59:891][  0]LogSlate: Took 0.035832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.05-19.32.00:070][  0]LogSlate: Took 0.042378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.05-19.32.00:403][  0]LogSlate: Took 0.039889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.05-19.32.01:762][  0]LogRenderer: Reallocating scene render targets to support 1188x592 Format 10 NumSamples 1 (Frame:1).
-[2019.04.05-19.32.03:911][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.04.05-19.32.03:911][  0]LogLoad: (Engine Initialization) Total time: 221.30 seconds
-[2019.04.05-19.32.03:911][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.05-19.32.05:596][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.05-19.32.06:465][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/' took 1.89s
-[2019.04.05-19.32.07:095][  4]LogAssetRegistry: Asset discovery search completed in 159.5104 seconds
-[2019.04.05-19.32.07:147][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.04.05-19.32.07:147][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.017716 seconds (updated 0 objects)
-[2019.04.05-19.32.07:430][  4]LogSlate: Took 0.021631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.05-19.33.25:635][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2019.04.05-19.33.26:996][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2019.04.05-19.33.28:545][921]Cmd: EDIT COPY
-[2019.04.05-19.33.28:931][921]Cmd: EDIT PASTE
-[2019.04.05-19.34.12:682][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
-[2019.04.05-19.34.13:553][649]Cmd: EDIT COPY
-[2019.04.05-19.34.13:823][678]Cmd: EDIT PASTE
-[2019.04.05-19.35.00:541][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
-[2019.04.05-19.35.01:623][737]Cmd: EDIT COPY
-[2019.04.05-19.35.01:937][772]Cmd: EDIT PASTE
-[2019.04.05-19.35.27:689][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
-[2019.04.05-19.35.31:415][986]Cmd: EDIT COPY
-[2019.04.05-19.35.31:833][ 32]Cmd: EDIT PASTE
-[2019.04.05-19.36.28:418][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube42)
-[2019.04.05-19.36.29:882][276]Cmd: EDIT COPY
-[2019.04.05-19.36.30:201][311]Cmd: EDIT PASTE
-[2019.04.05-19.37.21:971][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
-[2019.04.05-19.37.38:127][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
-[2019.04.05-19.37.41:812][989]Cmd: TRANSACTION UNDO
-[2019.04.05-19.37.41:812][989]LogEditorTransaction: Undo Move Actors
-[2019.04.05-19.37.41:933][989]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.05-19.37.43:569][166]Cmd: EDIT COPY
-[2019.04.05-19.37.43:960][211]Cmd: EDIT PASTE
-[2019.04.05-19.38.45:767][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.38.51:330][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.38.51:532][978]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_Whirlindas_1...
-[2019.04.05-19.38.51:532][978]LogTemp: Couldn't find amount to resample to.
-[2019.04.05-19.39.58:148][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.39.58:283][453]LogActorFactory: Actor Factory created Cube
-[2019.04.05-19.39.59:542][572]LogActorFactory: Actor Factory created Cube
-[2019.04.05-19.40.52:041][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
-[2019.04.05-19.40.53:084][537]Cmd: EDIT COPY
-[2019.04.05-19.40.53:324][565]Cmd: EDIT PASTE
-[2019.04.05-19.41.25:542][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statues_pCube4)
-[2019.04.05-19.41.27:595][456]Cmd: EDIT COPY
-[2019.04.05-19.41.27:888][490]Cmd: EDIT PASTE
-[2019.04.05-19.42.17:079][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.42.18:532][941]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMapAB20CBDA4569A523892D349A7D32736F.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.05-19.42.19:847][941]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_BuiltData7211CDC44F99115B4A5D39AFF98540B3.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.05-19.42.27:715][769]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
-[2019.04.05-19.42.29:122][769]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
-[2019.04.05-19.42.31:924][769]LogSlate: Took 0.044245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.05-19.42.34:772][871]LogRenderer: Reallocating scene render targets to support 1188x712 Format 10 NumSamples 1 (Frame:1).
-[2019.04.05-19.42.42:725][234]LogSlate: Took 0.020129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.05-19.42.44:107][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.42.56:818][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.43.13:520][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.43.24:749][ 60]BlueprintLog: New page: Compile FirstPersonCharacter
-[2019.04.05-19.43.25:800][ 86]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonCharacter75DD9430465A3A029EDE318F5F5580F7.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2019.04.05-19.43.30:970][468]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap0AC37A8C42623D63C811B79CE3B126D9.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.05-19.43.31:901][468]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_BuiltDataD2B095994B51A62A2FDE22AED75EDC48.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.05-19.43.32:341][513]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-19.43.32:427][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.43.32:475][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-19.43.32:619][513]PIE: New page: PIE session: FirstPersonExampleMap (Apr 5, 2019, 11:43:32 AM)
-[2019.04.05-19.43.32:619][513]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.04.05-19.43.32:690][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070618s)
-[2019.04.05-19.43.32:691][513]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.05-19.43.32:706][513]LogPlayLevel: PIE: World Init took: (0.015938s)
-[2019.04.05-19.43.32:719][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.100314s)
-[2019.04.05-19.43.32:858][513]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.05-19.43.32:900][513]LogInit: FAudioDevice initialized.
-[2019.04.05-19.43.32:995][513]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-19.43.33:138][513]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.05-15.43.33
-[2019.04.05-19.43.33:228][513]LogWorld: Bringing up level for play took: 0.119037
-[2019.04.05-19.43.33:438][513]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
-[2019.04.05-19.43.33:493][513]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.129
-[2019.04.05-19.43.33:493][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.43.38:685][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.43.38:711][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.43.38:834][100]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-19.43.38:834][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.43.39:014][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.43.39:094][101]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.04.05-19.43.55:628][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.43.55:837][ 38]LogActorFactory: Actor Factory created Plane
-[2019.04.05-19.43.56:541][108]LogActorFactory: Actor Factory created Plane
-[2019.04.05-19.44.43:962][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.44.44:055][142]MapCheck: New page: Map Check
-[2019.04.05-19.44.44:136][142]Cmd: MAP REBUILD ALLVISIBLE
-[2019.04.05-19.44.44:137][142]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.04.05-19.44.44:491][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
-[2019.04.05-19.44.44:516][142]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.05-19.44.44:516][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2019.04.05-19.44.44:523][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2019.04.05-19.44.44:531][142]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.05-19.44.44:531][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
-[2019.04.05-19.44.44:539][142]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.05-19.44.44:539][142]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2019.04.05-19.44.45:712][142]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.05-19.44.45:712][142]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.05-19.44.45:712][142]TextureStreamingBuild: Display: Compiling optional shaders took 1.235 seconds.
-[2019.04.05-19.44.45:964][142]LogLevel: Display: Export Material TexCoord Scales took 0.253 seconds.
-[2019.04.05-19.44.46:103][142]TextureStreamingBuild: Display: Build Texture Streaming took 0.112 seconds.
-[2019.04.05-19.44.46:159][142]LightingResults: New page: Lighting Build - Apr 5, 2019, 11:44:46 AM
-[2019.04.05-19.44.46:520][142]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.04.05-19.44.46:822][142]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.04.05-19.44.46:856][142]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.04.05-19.44.47:915][142]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.04.05-19.44.47:915][142]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15776
-[2019.04.05-19.44.55:817][142]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.04.05-19.44.55:817][142]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.04.05-19.44.55:817][142]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.04.05-19.44.55:817][142]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.04.05-19.44.55:817][142]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.04.05-19.44.56:151][142]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.04.05-19.44.56:151][142]MapCheck: New page: FirstPersonExampleMap - Apr 5, 2019, 11:44:56 AM
-[2019.04.05-19.44.56:163][142]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2019.04.05-19.44.56:585][142]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 434.415ms to complete.
-[2019.04.05-19.44.56:622][142]LogEditorBuildUtils: Build time 0:12
-[2019.04.05-19.44.56:834][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2019.04.05-19.44.56:843][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2019.04.05-19.44.56:866][143]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.05-19.44.56:866][143]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.05-19.45.56:045][319]Job is a success!
-[2019.04.05-19.45.56:667][320]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:      Bricks at Level
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
-[2019.04.05-19.45.56:668][320]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
-[2019.04.05-19.45.56:992][320]LogMaterial: Warning: Material /Game/Props/Import/phong1.phong1 needed to have new flag set bUsedWithStaticLighting !
-[2019.04.05-19.45.56:995][320]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
-[2019.04.05-19.45.57:043][320]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.04.05-19.45.57:043][320]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.04.05-19.45.57:043][320]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
-[2019.04.05-19.46.01:699][320]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
-[2019.04.05-19.46.02:441][320]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
-[2019.04.05-19.46.02:441][320]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
-[2019.04.05-19.46.02:441][320]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
-[2019.04.05-19.46.02:442][320]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 64X64)
-[2019.04.05-19.46.02:442][320]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
-[2019.04.05-19.46.02:442][320]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
-[2019.04.05-19.46.02:489][320]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
-[2019.04.05-19.46.02:583][320]Lightmass on THE-AFTERMATH: 1:03 min total, 4.85 sec importing, 62 ms setup, 8.54 sec photons, 49.5 sec processing, 0 ms extra exporting [59/59 mappings]. Threads: 3:18 min total, 1:51 min processing.
-[2019.04.05-19.46.02:714][320]LogStaticLightingSystem: Illumination: 1:16 min (4.57 sec encoding lightmaps, 785 ms encoding shadowmaps)
-[2019.04.05-19.46.02:714][320]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 8 textures
-[2019.04.05-19.46.02:714][320]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 7 textures
-[2019.04.05-19.46.02:950][320]DumpUnbuiltLightIteractions
-[2019.04.05-19.46.02:950][320]Lights with unbuilt interactions: 0
-[2019.04.05-19.46.02:950][320]
-[2019.04.05-19.46.02:950][320]Primitives with unbuilt interactions: 0
-[2019.04.05-19.46.05:573][320]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.05-19.46.05:673][321]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.04.05-19.46.05:674][321]MapCheck: New page: FirstPersonExampleMap - Apr 5, 2019, 11:46:05 AM
-[2019.04.05-19.46.06:273][321]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 599.337ms to complete.
-[2019.04.05-19.47.02:648][492]LogSlate: Window 'Message Log' being destroyed
-[2019.04.05-19.47.02:660][492]LogSlate: Window 'Message Log' being destroyed
-[2019.04.05-19.47.05:612][701]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap064CA4D84032FBB71498829E8BC4AE48.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.05-19.47.06:563][701]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_BuiltData963823FC4B5A2FF307CAFCBF60E46BED.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.05-19.47.37:129][169]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-19.47.37:150][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.47.37:150][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-19.47.37:150][169]PIE: New page: PIE session: FirstPersonExampleMap (Apr 5, 2019, 11:47:37 AM)
-[2019.04.05-19.47.37:150][169]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.04.05-19.47.37:210][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059725s)
-[2019.04.05-19.47.37:245][169]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.05-19.47.37:259][169]LogPlayLevel: PIE: World Init took: (0.049357s)
-[2019.04.05-19.47.37:260][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.109534s)
-[2019.04.05-19.47.37:369][169]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.05-19.47.37:416][169]LogInit: FAudioDevice initialized.
-[2019.04.05-19.47.37:472][169]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-19.47.37:491][169]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.05-15.47.37
-[2019.04.05-19.47.37:509][169]LogWorld: Bringing up level for play took: 0.035600
-[2019.04.05-19.47.37:572][169]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.209
-[2019.04.05-19.47.37:572][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.48.08:943][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.48.08:944][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.48.09:011][911]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-19.48.09:011][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.48.09:044][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-19.48.09:089][912]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.04.05-19.48.20:041][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
-[2019.04.05-19.48.20:784][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
-[2019.04.05-19.48.24:699][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2019.04.05-19.48.51:693][771]Cmd: DELETE
-[2019.04.05-19.48.51:693][771]Cmd: ACTOR DELETE
-[2019.04.05-19.48.51:791][771]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.05-19.48.51:822][771]LogEditorActor: Deleted 1 Actors (0.092 secs)
-[2019.04.05-19.48.54:529][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.48.54:654][ 81]LogActorFactory: Actor Factory created Cube
-[2019.04.05-19.48.55:094][130]LogActorFactory: Actor Factory created Cube
-[2019.04.05-19.49.02:249][942]Cmd: TRANSACTION UNDO
-[2019.04.05-19.49.02:249][942]LogEditorTransaction: Undo Scale Actors
-[2019.04.05-19.49.29:249][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
-[2019.04.05-19.49.33:576][242]Cmd: TRANSACTION UNDO
-[2019.04.05-19.49.33:577][242]LogEditorTransaction: Undo Move Actors
-[2019.04.05-19.49.43:417][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
-[2019.04.05-19.49.48:893][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
-[2019.04.05-19.49.53:118][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
-[2019.04.05-19.49.57:223][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
-[2019.04.05-19.50.11:128][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
-[2019.04.05-19.50.21:329][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube51)
-[2019.04.05-19.50.58:582][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.51.00:108][816]MapCheck: New page: Map Check
-[2019.04.05-19.51.00:119][816]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.51.00:122][816]LightingResults: New page: Lighting Build - Apr 5, 2019, 11:51:00 AM
-[2019.04.05-19.51.00:183][816]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.04.05-19.51.00:186][816]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.04.05-19.51.00:186][816]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.04.05-19.51.00:187][816]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.04.05-19.51.00:187][816]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15776
-[2019.04.05-19.51.04:697][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.04.05-19.51.04:697][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.04.05-19.51.04:697][816]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.04.05-19.51.04:697][816]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.04.05-19.51.04:697][816]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.04.05-19.51.04:916][816]LogEditorBuildUtils: Build time 0:04
-[2019.04.05-19.51.04:924][816]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2019.04.05-19.51.04:932][816]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2019.04.05-19.51.04:948][816]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.04.05-19.51.55:294][961]Job is a success!
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:      Bricks at Level
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
-[2019.04.05-19.51.55:715][962]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
-[2019.04.05-19.51.59:557][962]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
-[2019.04.05-19.51.59:958][962]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
-[2019.04.05-19.51.59:958][962]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
-[2019.04.05-19.51.59:958][962]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
-[2019.04.05-19.51.59:958][962]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
-[2019.04.05-19.51.59:958][962]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 64X64)
-[2019.04.05-19.52.00:180][962]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
-[2019.04.05-19.52.00:232][962]Lightmass on THE-AFTERMATH: 51.4 sec total, 209 ms importing, 24 ms setup, 8.58 sec photons, 42.5 sec processing, 0 ms extra exporting [59/59 mappings]. Threads: 2:50 min total, 1:31 min processing.
-[2019.04.05-19.52.00:239][962]LogStaticLightingSystem: Illumination: 59.7 sec (3.58 sec encoding lightmaps, 622 ms encoding shadowmaps)
-[2019.04.05-19.52.00:239][962]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 8 textures
-[2019.04.05-19.52.00:239][962]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
-[2019.04.05-19.52.00:749][962]DumpUnbuiltLightIteractions
-[2019.04.05-19.52.00:749][962]Lights with unbuilt interactions: 0
-[2019.04.05-19.52.00:749][962]
-[2019.04.05-19.52.00:749][962]Primitives with unbuilt interactions: 0
-[2019.04.05-19.52.00:869][963]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.04.05-19.52.00:869][963]MapCheck: New page: FirstPersonExampleMap - Apr 5, 2019, 11:52:00 AM
-[2019.04.05-19.52.01:443][963]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 574.55ms to complete.
-[2019.04.05-19.53.04:477][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-19.53.04:771][152]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.53.05:231][152]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap96B27F714B15C4B2F60A7CA7F0D221E3.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.05-19.53.06:291][152]LogSavePackage: Moving '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap_BuiltData66F2D2604D3F5E5D8411F0B3D6196D57.tmp' to '../../../../../../Users/Anthony Brown/Documents/Github/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.05-19.53.37:806][698]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-19.53.37:826][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.53.37:826][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-19.53.37:827][698]PIE: New page: PIE session: FirstPersonExampleMap (Apr 5, 2019, 11:53:37 AM)
-[2019.04.05-19.53.37:827][698]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.04.05-19.53.37:849][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021813s)
-[2019.04.05-19.53.37:850][698]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.05-19.53.37:850][698]LogPlayLevel: PIE: World Init took: (0.001379s)
-[2019.04.05-19.53.37:850][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023464s)
-[2019.04.05-19.53.37:940][698]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.05-19.53.37:980][698]LogInit: FAudioDevice initialized.
-[2019.04.05-19.53.38:012][698]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-19.53.38:017][698]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.05-15.53.38
-[2019.04.05-19.53.38:018][698]LogWorld: Bringing up level for play took: 0.004111
-[2019.04.05-19.53.38:032][698]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.332
-[2019.04.05-19.53.38:032][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.05-19.54.20:395][738]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.55.13:255][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.55.16:613][501]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.20/Engine/Content: 'D:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.04.05-19.55.19:116][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.56.16:047][501]LogSlate: Window 'Submit Files' being destroyed
-[2019.04.05-19.56.16:058][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.56.16:243][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.05-19.56.21:601][501]LogSourceControl: commit successful: [master 1153aac] gave player a point light until flashlight is ready, made the maze dark by putting a cap on the whole level; template 90% done
-[2019.04.05-19.56.21:755][501]SourceControl: [master 1153aac] gave player a point light until flashlight is ready, made the maze dark by putting a cap on the whole level; template 90% done
-[2019.04.05-19.56.21:755][501]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
-[2019.04.05-19.56.21:755][501]SourceControl:  rewrite In_The_Maze/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (64%)
-[2019.04.05-19.56.21:764][501]SourceControl: Commited [master 1153aac] gave player a point light until flashlight is ready, made the maze dark by putting a cap on the whole level; template 90% done.
+[2019.04.09-23.09.24:128][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-23.09.24:128][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.09-23.09.24:141][  0]LogHAL: Display: Platform has ~ 32 GB [34299015168 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.09-23.09.24:141][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.09-23.09.24:141][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.09-23.09.24:141][  0]LogInit: Computer: COSWAEC1104-13
+[2019.04.09-23.09.24:142][  0]LogInit: User: petin
+[2019.04.09-23.09.24:142][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.09-23.09.24:142][  0]LogInit: High frequency timer resolution =3.507517 MHz
+[2019.04.09-23.09.24:142][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.09-23.09.24:142][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.09-23.09.24:142][  0]LogMemory: Process Physical Memory: 99.96 MB used, 99.96 MB peak
+[2019.04.09-23.09.24:142][  0]LogMemory: Process Virtual Memory: 91.01 MB used, 91.01 MB peak
+[2019.04.09-23.09.24:142][  0]LogMemory: Physical Memory: 6144.68 MB used,  26565.41 MB free, 32710.09 MB total
+[2019.04.09-23.09.24:142][  0]LogMemory: Virtual Memory: 4640.97 MB used,  26565.41 MB free, 134217728.00 MB total
+[2019.04.09-23.09.24:166][  0]LogInit: Using OS detected language (en-US).
+[2019.04.09-23.09.24:166][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.09-23.09.24:167][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.09-23.09.24:543][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
+[2019.04.09-23.09.24:543][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.09-23.09.24:570][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.09-23.09.24:570][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.09-23.09.24:775][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-23.09.24:775][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.09-23.09.24:824][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2019.04.09-23.09.24:824][  0]LogD3D11RHI:       4063/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.09-23.09.24:825][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.09-23.09.24:826][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.09-23.09.24:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.09-23.09.24:832][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.09-23.09.24:832][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.09-23.09.24:832][  0]LogWindows: EnumDisplayDevices:
+[2019.04.09-23.09.24:832][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2019.04.09-23.09.24:832][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2019.04.09-23.09.24:832][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2019.04.09-23.09.24:832][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.04.09-23.09.24:832][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2019.04.09-23.09.24:832][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.04.09-23.09.24:832][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.04.09-23.09.24:832][  0]LogRHI: Texture pool is 2844 MB (70% of 4063 MB)
+[2019.04.09-23.09.24:865][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.09-23.09.24:876][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.09-23.09.24:877][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Intermediate/Shaders/WorkingDirectory/3908/).
+[2019.04.09-23.09.24:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/petin/AppData/Local/Temp/UnrealShaderWorkingDir/FBF3948F4E5E08D4157B66B568D61515/'.
+[2019.04.09-23.09.26:237][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.09-23.09.26:253][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.09-23.09.26:276][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.09-23.09.26:290][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.09-23.09.26:305][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.09-23.09.26:320][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.09-23.09.26:339][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.09-23.09.26:353][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.09-23.09.26:360][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.09.26:437][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.09-23.09.26:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-23.09.26:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-23.09.26:587][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-23.09.26:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-23.09.26:608][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.09-23.09.26:620][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.09-23.09.26:638][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.09-23.09.26:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.09-23.09.26:670][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-23.09.26:670][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.09-23.09.26:818][  0]LogXGEController: Cleaning working directory: C:/Users/petin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-23.09.26:819][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.09-23.09.26:819][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.09-23.09.26:819][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.09-23.09.27:559][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/petin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/petin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-23.09.27:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.09-23.09.27:634][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.09-23.09.27:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/petin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.09-23.09.27:649][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.09-23.09.27:649][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.09-23.09.27:666][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.09-23.09.27:667][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.09-23.09.27:668][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.09-23.09.27:746][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2019.04.09-23.09.28:094][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-23.09.28:223][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.09-23.09.28:228][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.09-23.09.28:229][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.09-23.09.28:229][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.09-23.09.28:229][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.09-23.09.28:244][  0]LogNetVersion: In_The_Maze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1726018356)
+[2019.04.09-23.09.28:774][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.139425 seconds
+[2019.04.09-23.09.28:780][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.09-23.09.28:780][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.09-23.09.28:780][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.09-23.09.29:747][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.09-23.09.29:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.09-23.09.29:906][  0]SourceControl: Source control is disabled
+[2019.04.09-23.09.31:543][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.09-23.09.31:657][  0]LogOcInput: OculusInput pre-init called
+[2019.04.09-23.09.31:728][  0]LogEngine: Initializing Engine...
+[2019.04.09-23.09.31:729][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-23.09.31:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-23.09.31:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-23.09.31:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-23.09.31:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-23.09.31:921][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.09-23.09.31:939][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.09-23.09.31:946][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.09.32:161][  0]LogInit: FAudioDevice initialized.
+[2019.04.09-23.09.32:162][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.09-23.09.32:337][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/petin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-23.09.32:343][  0]LogInit: Texture streaming: Enabled
+[2019.04.09-23.09.32:370][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.09-23.09.32:384][  0]LogInit: Transaction tracking system initialized
+[2019.04.09-23.09.32:427][  0]BlueprintLog: New page: Editor Load
+[2019.04.09-23.09.32:598][  0]LocalizationService: Localization service is disabled
+[2019.04.09-23.09.32:841][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.09-23.09.32:841][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.09-23.09.32:841][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.09-23.09.32:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-23.09.32:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-23.09.32:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-23.09.32:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-23.09.32:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/' took 0.02s
+[2019.04.09-23.09.32:968][  0]Cmd: MAP LOAD FILE="../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-23.09.32:968][  0]LightingResults: New page: Lighting Build
+[2019.04.09-23.09.32:971][  0]MapCheck: New page: Map Check
+[2019.04.09-23.09.32:971][  0]LightingResults: New page: Lighting Build
+[2019.04.09-23.09.33:174][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2019.04.09-23.09.33:174][  0]LogTexture: Display: Building textures: ghoul (AutoDXT, 500X500)
+[2019.04.09-23.09.33:185][  0]LogStaticMesh: Building static mesh bigboy...
+[2019.04.09-23.09.33:228][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
+[2019.04.09-23.09.33:228][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
+[2019.04.09-23.09.33:228][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2019.04.09-23.09.33:228][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2019.04.09-23.09.33:228][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
+[2019.04.09-23.09.33:228][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Props/Import/bigboy.bigboy
+[2019.04.09-23.09.33:369][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
+[2019.04.09-23.09.33:369][  0]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2019.04.09-23.09.33:454][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.09-23.09.33:454][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.09-23.09.33:454][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 64X64)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
+[2019.04.09-23.09.34:476][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2019.04.09-23.09.34:477][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-23.09.34:482][  0]LogMaterial: Warning: Material /Game/Props/Import/phong1.phong1 needed to have new flag set bUsedWithStaticLighting !
+[2019.04.09-23.09.34:485][  0]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2019.04.09-23.09.34:527][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.09-23.09.34:527][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.09-23.09.34:527][  0]MapCheck: Warning: phong1 Material /Game/Props/Import/phong1.phong1 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.04.09-23.09.34:532][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-23.09.34:554][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-23.09.34:663][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 107.896ms to complete.
+[2019.04.09-23.09.34:668][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.701
+[2019.04.09-23.09.34:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.09.34:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.09.34:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.09.34:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.09.34:823][  0]LogCollectionManager: Loaded 0 collections in 0.003688 seconds
+[2019.04.09-23.09.34:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Collections/' took 0.01s
+[2019.04.09-23.09.34:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Developers/petin/Collections/' took 0.01s
+[2019.04.09-23.09.34:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Collections/' took 0.01s
+[2019.04.09-23.09.34:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.09-23.09.34:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2572 classes and 603 folders.
+[2019.04.09-23.09.34:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.09.34:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.09.35:004][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.09-23.09.35:120][  0]LogSlate: Took 0.003561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.09-23.09.35:124][  0]LogSlate: Took 0.002647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.09-23.09.35:131][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.09-23.09.35:250][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.09-23.09.35:250][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2019.04.09-23.09.35:586][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.09.35:586][  0]LogLoad: (Engine Initialization) Total time: 13.38 seconds
+[2019.04.09-23.09.35:586][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.09-23.09.35:597][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.09-23.09.35:631][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.09-23.09.35:686][  0]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-23.09.35:696][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/' took 0.09s
+[2019.04.09-23.09.35:716][  1]LogAssetRegistry: Asset discovery search completed in 7.9921 seconds
+[2019.04.09-23.09.35:719][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.09-23.09.35:720][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.04.09-23.09.36:634][ 50]LogSlate: Took 0.002511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-23.09.37:000][ 71]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.09-23.09.45:926][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.09.46:020][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.09.46:031][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.09.46:031][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.09.46:044][681]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2019, 3:09:46 PM)
+[2019.04.09-23.09.46:044][681]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.09-23.09.46:065][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020658s)
+[2019.04.09-23.09.46:066][681]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-23.09.46:066][681]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2019.04.09-23.09.46:066][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022176s)
+[2019.04.09-23.09.46:092][681]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.09.46:113][681]LogInit: FAudioDevice initialized.
+[2019.04.09-23.09.46:157][681]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.09.46:160][681]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.09-19.09.46
+[2019.04.09-23.09.46:161][681]LogWorld: Bringing up level for play took: 0.002399
+[2019.04.09-23.09.46:202][681]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.09-23.09.46:203][681]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.467
+[2019.04.09-23.09.46:203][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.10.01:392][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.10.01:392][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.10.01:436][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.10.01:436][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.10.01:457][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.10.01:520][688]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.04.09-23.10.02:605][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.13.41:471][ 71]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.13.41:490][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.13.41:490][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.13.41:490][ 71]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2019, 3:13:41 PM)
+[2019.04.09-23.13.41:490][ 71]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.09-23.13.41:506][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015654s)
+[2019.04.09-23.13.41:507][ 71]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-23.13.41:507][ 71]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2019.04.09-23.13.41:507][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017025s)
+[2019.04.09-23.13.41:532][ 71]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.13.41:551][ 71]LogInit: FAudioDevice initialized.
+[2019.04.09-23.13.41:582][ 71]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.13.41:585][ 71]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.09-19.13.41
+[2019.04.09-23.13.41:585][ 71]LogWorld: Bringing up level for play took: 0.002147
+[2019.04.09-23.13.41:598][ 71]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.892
+[2019.04.09-23.13.41:598][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.14.32:229][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.14.32:229][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.14.32:278][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.14.32:278][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.14.32:300][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.14.32:332][482]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.09-23.14.35:834][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube51)
+[2019.04.09-23.14.47:969][468]Cmd: ACTOR HIDE SELECTED
+[2019.04.09-23.14.53:825][878]Cmd: ACTOR HIDE SELECTED
+[2019.04.09-23.14.55:244][973]Cmd: TRANSACTION UNDO
+[2019.04.09-23.14.55:244][973]LogEditorTransaction: Undo Hide Selected
+[2019.04.09-23.14.55:653][997]Cmd: TRANSACTION UNDO
+[2019.04.09-23.14.55:653][997]LogEditorTransaction: Undo Hide Selected
+[2019.04.09-23.15.04:500][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.15.04:578][574]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.15.04:593][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.15.04:593][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.15.04:594][574]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2019, 3:15:04 PM)
+[2019.04.09-23.15.04:594][574]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.09-23.15.04:607][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012937s)
+[2019.04.09-23.15.04:607][574]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-23.15.04:608][574]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2019.04.09-23.15.04:608][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014042s)
+[2019.04.09-23.15.04:632][574]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.15.04:652][574]LogInit: FAudioDevice initialized.
+[2019.04.09-23.15.04:681][574]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.15.04:684][574]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.09-19.15.04
+[2019.04.09-23.15.04:684][574]LogWorld: Bringing up level for play took: 0.002024
+[2019.04.09-23.15.04:697][574]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.061
+[2019.04.09-23.15.04:697][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.15.26:297][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.15.26:298][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.15.26:343][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.15.26:343][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-23.15.26:363][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.15.26:420][  5]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.04.09-23.15.30:757][304]Cmd: TRANSACTION UNDO
+[2019.04.09-23.15.30:757][304]LogEditorTransaction: Undo Move Actors
+[2019.04.09-23.15.31:211][325]Cmd: TRANSACTION UNDO
+[2019.04.09-23.15.31:211][325]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.04.09-23.15.32:300][397]Cmd: TRANSACTION REDO
+[2019.04.09-23.15.32:300][397]LogEditorTransaction: Redo Snap Actors To Floor
+[2019.04.09-23.15.34:502][540]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.04.09-23.15.36:809][688]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.04.09-23.15.37:315][715]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.04.09-23.15.39:495][852]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.04.09-23.15.48:902][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.15.50:087][537]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.15.50:092][537]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Level2.Level2
+[2019.04.09-23.15.51:523][537]LogSlate: Window 'Save Content' being destroyed
+[2019.04.09-23.15.51:836][537]LogSavePackage: Moving '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMapA71A87874CDD54FFC5FFE2A25D42ED0A.tmp' to '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.09-23.15.51:864][537]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.262
+[2019.04.09-23.15.51:865][537]Cmd: MAP LOAD FILE="../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-23.15.51:865][537]LightingResults: New page: Lighting Build
+[2019.04.09-23.15.51:866][537]LoadErrors: New page: Loading map: Level2.umap
+[2019.04.09-23.15.51:867][537]MapCheck: New page: Map Check
+[2019.04.09-23.15.51:867][537]LightingResults: New page: Lighting Build
+[2019.04.09-23.15.51:944][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-23.15.51:989][537]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-23.15.52:054][537]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.523ms to complete.
+[2019.04.09-23.15.52:059][537]LogFileHelpers: Loading map 'Level2' took 0.195
+[2019.04.09-23.16.48:076][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.17.10:462][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.17.10:699][601]LogActorFactory: Actor Factory created bigboy
+[2019.04.09-23.17.11:469][650]LogActorFactory: Actor Factory created bigboy
+[2019.04.09-23.17.17:803][ 21]Cmd: DELETE
+[2019.04.09-23.17.17:803][ 21]Cmd: ACTOR DELETE
+[2019.04.09-23.17.17:806][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.09-23.17.17:831][ 21]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.04.09-23.17.21:844][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.17.22:032][186]LogActorFactory: Actor Factory created bigboy
+[2019.04.09-23.17.23:170][258]LogActorFactory: Actor Factory created bigboy
+[2019.04.09-23.17.54:501][218]Cmd: DELETE
+[2019.04.09-23.17.54:501][218]Cmd: ACTOR DELETE
+[2019.04.09-23.17.54:505][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.09-23.17.54:530][218]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.04.09-23.17.57:986][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.18.25:081][784]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.SKEL_EnemyCharacter_BP_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:058][406]LogMetaData: Removing '/Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.04.09-23.18.35:073][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter_BP" FILE="../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Blueprints/EnemyCharacter_BP.uasset" SILENT=true
+[2019.04.09-23.18.35:084][406]LogSavePackage: Moving '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/EnemyCharacter_BP645B15A745D7C9197AEDF19CFEA8B70C.tmp' to '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Blueprints/EnemyCharacter_BP.uasset'
+[2019.04.09-23.18.49:819][365]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyCharacter_BP.EnemyCharacter_BP
+[2019.04.09-23.18.50:217][365]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.04.09-23.18.57:948][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-23.19.01:689][844]LogSlate: Took 0.002097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.09-23.19.03:377][919]LogEditorTransaction: Undo Add Component
+[2019.04.09-23.19.03:864][938]LogEditorTransaction: Undo Modify Component(s)
+[2019.04.09-23.19.05:294][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-23.20.31:526][546]LogEditorTransaction: Undo Modify Component(s)
+[2019.04.09-23.20.35:576][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-23.20.35:679][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter_BP" FILE="../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Blueprints/EnemyCharacter_BP.uasset" SILENT=true
+[2019.04.09-23.20.35:736][720]LogSavePackage: Moving '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/EnemyCharacter_BP0F77E76B477C8A10631B3F9EADAB7951.tmp' to '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Blueprints/EnemyCharacter_BP.uasset'
+[2019.04.09-23.21.07:493][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.21.12:575][306]LogSlate: Window 'EnemyCharacter_BP' being destroyed
+[2019.04.09-23.21.12:600][306]LogSlate: Window 'EnemyCharacter_BP' being destroyed
+[2019.04.09-23.21.21:342][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2019.04.09-23.21.38:991][944]Cmd: TRANSACTION UNDO
+[2019.04.09-23.21.38:991][944]LogEditorTransaction: Undo Move Actors
+[2019.04.09-23.22.14:531][138]Cmd: TRANSACTION UNDO
+[2019.04.09-23.22.14:531][138]LogEditorTransaction: Undo Move Actors
+[2019.04.09-23.22.22:660][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.22.31:639][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.22.42:186][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.22.49:868][244]Cmd: TRANSACTION UNDO
+[2019.04.09-23.22.49:868][244]LogEditorTransaction: Undo Move Actors
+[2019.04.09-23.22.50:519][277]Cmd: TRANSACTION UNDO
+[2019.04.09-23.22.50:519][277]LogEditorTransaction: Undo Edit Fog Multiplier
+[2019.04.09-23.22.51:180][317]Cmd: TRANSACTION UNDO
+[2019.04.09-23.22.51:180][317]LogEditorTransaction: Undo Edit Fog Multiplier
+[2019.04.09-23.22.51:663][347]Cmd: TRANSACTION UNDO
+[2019.04.09-23.22.51:663][347]LogEditorTransaction: Undo Edit Fog Multiplier
+[2019.04.09-23.23.07:645][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.23.11:660][560]Cmd: TRANSACTION UNDO
+[2019.04.09-23.23.11:660][560]LogEditorTransaction: Undo Edit Sun Multiplier
+[2019.04.09-23.23.13:883][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.23.21:014][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.23.29:253][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.23.29:318][619]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.23.29:338][619]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.09-23.23.29:339][619]LogPlayLevel: [PlayLevel] Compiling EnemyCharacter_BP before play...
+[2019.04.09-23.23.29:462][619]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2019.04.09-23.23.29:462][619]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:23:29 PM)
+[2019.04.09-23.23.29:462][619]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.23.29:466][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003398s)
+[2019.04.09-23.23.29:467][619]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.23.29:467][619]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2019.04.09-23.23.29:467][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.004307s)
+[2019.04.09-23.23.29:493][619]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.23.29:513][619]LogInit: FAudioDevice initialized.
+[2019.04.09-23.23.29:542][619]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.23.29:544][619]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.23.29
+[2019.04.09-23.23.29:544][619]LogWorld: Bringing up level for play took: 0.001436
+[2019.04.09-23.23.29:558][619]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 0.698
+[2019.04.09-23.23.35:631][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.23.35:679][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.23.35:722][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.23.35:752][995]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.09-23.23.40:339][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TallWall)
+[2019.04.09-23.23.40:963][278]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2019.04.09-23.23.42:036][342]Cmd: DELETE
+[2019.04.09-23.23.42:036][342]Cmd: ACTOR DELETE
+[2019.04.09-23.23.42:040][342]LogEditorActor: Deleted Actor: AtmosphericFog
+[2019.04.09-23.23.42:076][342]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.04.09-23.23.43:510][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.23.50:436][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.04:483][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.04:592][765]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.24.04:612][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.24.04:613][765]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:24:04 PM)
+[2019.04.09-23.24.04:613][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.24.04:616][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003198s)
+[2019.04.09-23.24.04:616][765]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.24.04:617][765]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.04.09-23.24.04:617][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003996s)
+[2019.04.09-23.24.04:644][765]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.24.04:664][765]LogInit: FAudioDevice initialized.
+[2019.04.09-23.24.04:692][765]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.24.04:695][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.24.04
+[2019.04.09-23.24.04:695][765]LogWorld: Bringing up level for play took: 0.001306
+[2019.04.09-23.24.04:709][765]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 -0.15
+[2019.04.09-23.24.07:071][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.07:122][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.24.07:189][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.07:220][911]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.09-23.24.10:589][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.20:835][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.20:943][783]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.24.20:957][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.24.20:957][783]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:24:20 PM)
+[2019.04.09-23.24.20:957][783]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.24.20:961][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003177s)
+[2019.04.09-23.24.20:961][783]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.24.20:961][783]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.04.09-23.24.20:961][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003940s)
+[2019.04.09-23.24.20:989][783]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.24.21:008][783]LogInit: FAudioDevice initialized.
+[2019.04.09-23.24.21:043][783]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.24.21:048][783]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.24.21
+[2019.04.09-23.24.21:048][783]LogWorld: Bringing up level for play took: 0.003263
+[2019.04.09-23.24.21:066][783]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 0.206
+[2019.04.09-23.24.28:585][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.28:633][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.24.28:688][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.28:717][286]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.09-23.24.32:784][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.44:510][256]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.24.44:530][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.24.44:530][256]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:24:44 PM)
+[2019.04.09-23.24.44:530][256]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.24.44:533][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002747s)
+[2019.04.09-23.24.44:533][256]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.24.44:533][256]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2019.04.09-23.24.44:533][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003428s)
+[2019.04.09-23.24.44:560][256]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.24.44:580][256]LogInit: FAudioDevice initialized.
+[2019.04.09-23.24.44:608][256]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.24.44:611][256]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.24.44
+[2019.04.09-23.24.44:611][256]LogWorld: Bringing up level for play took: 0.001357
+[2019.04.09-23.24.44:626][256]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 -0.234
+[2019.04.09-23.24.47:542][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.47:589][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.24.47:644][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.47:660][433]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.09-23.24.48:762][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.48:934][512]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.09-23.24.51:103][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.24.57:517][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.24.57:529][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.24.57:529][ 66]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:24:57 PM)
+[2019.04.09-23.24.57:529][ 66]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.24.57:532][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003285s)
+[2019.04.09-23.24.57:533][ 66]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.24.57:533][ 66]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2019.04.09-23.24.57:533][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.004019s)
+[2019.04.09-23.24.57:558][ 66]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.24.57:577][ 66]LogInit: FAudioDevice initialized.
+[2019.04.09-23.24.57:605][ 66]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.24.57:607][ 66]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.24.57
+[2019.04.09-23.24.57:607][ 66]LogWorld: Bringing up level for play took: 0.001698
+[2019.04.09-23.24.57:620][ 66]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 0.76
+[2019.04.09-23.24.59:095][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.59:143][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.24.59:201][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.24.59:230][162]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.04.09-23.25.01:348][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.25.13:729][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2019.04.09-23.25.14:576][142]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.09-23.25.15:287][181]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.09-23.25.16:273][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.25.29:571][101]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.25.29:591][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.25.29:591][101]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:25:29 PM)
+[2019.04.09-23.25.29:591][101]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.25.29:594][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003075s)
+[2019.04.09-23.25.29:595][101]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.25.29:595][101]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2019.04.09-23.25.29:595][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003783s)
+[2019.04.09-23.25.29:618][101]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.25.29:638][101]LogInit: FAudioDevice initialized.
+[2019.04.09-23.25.29:671][101]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.25.29:673][101]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.25.29
+[2019.04.09-23.25.29:673][101]LogWorld: Bringing up level for play took: 0.001189
+[2019.04.09-23.25.29:687][101]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 0.824
+[2019.04.09-23.25.34:430][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.25.34:482][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.25.34:539][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.25.34:553][400]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.09-23.26.18:793][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.26.25:226][639]LogSavePackage: Moving '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Level2_Auto1EC724A8B4AD69B3AB4FA429C56D3CF87.tmp' to '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Maps/Level2_Auto1.umap'
+[2019.04.09-23.26.25:234][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level2' took 0.079
+[2019.04.09-23.26.25:234][639]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.079
+[2019.04.09-23.26.48:224][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.26.56:473][698]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.26.56:492][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.26.56:492][698]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:26:56 PM)
+[2019.04.09-23.26.56:492][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.26.56:495][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003073s)
+[2019.04.09-23.26.56:496][698]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.26.56:496][698]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2019.04.09-23.26.56:496][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003855s)
+[2019.04.09-23.26.56:523][698]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.26.56:542][698]LogInit: FAudioDevice initialized.
+[2019.04.09-23.26.56:575][698]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.26.56:577][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.26.56
+[2019.04.09-23.26.56:577][698]LogWorld: Bringing up level for play took: 0.001356
+[2019.04.09-23.26.56:591][698]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 -0.28
+[2019.04.09-23.27.07:391][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.07:438][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.27.07:491][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.07:517][466]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.09-23.27.20:321][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.27.28:460][990]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.27.28:479][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.27.28:479][990]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:27:28 PM)
+[2019.04.09-23.27.28:479][990]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.27.28:482][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002968s)
+[2019.04.09-23.27.28:483][990]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.27.28:483][990]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2019.04.09-23.27.28:483][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003714s)
+[2019.04.09-23.27.28:506][990]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.27.28:526][990]LogInit: FAudioDevice initialized.
+[2019.04.09-23.27.28:556][990]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.27.28:558][990]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.27.28
+[2019.04.09-23.27.28:558][990]LogWorld: Bringing up level for play took: 0.001132
+[2019.04.09-23.27.28:572][990]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 -0.302
+[2019.04.09-23.27.32:357][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.32:402][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.27.32:443][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.32:471][259]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.04.09-23.27.33:578][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.27.35:287][452]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.09-23.27.35:925][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.04.09-23.27.36:983][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.27.37:067][570]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.27.37:080][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.27.37:080][570]PIE: New page: PIE session: Level2 (Apr 9, 2019, 3:27:37 PM)
+[2019.04.09-23.27.37:080][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2019.04.09-23.27.37:083][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003088s)
+[2019.04.09-23.27.37:083][570]LogAIModule: Creating AISystem for world Level2
+[2019.04.09-23.27.37:084][570]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.04.09-23.27.37:084][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003887s)
+[2019.04.09-23.27.37:107][570]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-23.27.37:126][570]LogInit: FAudioDevice initialized.
+[2019.04.09-23.27.37:156][570]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-23.27.37:158][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.04.09-19.27.37
+[2019.04.09-23.27.37:158][570]LogWorld: Bringing up level for play took: 0.001207
+[2019.04.09-23.27.37:172][570]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level2 0.297
+[2019.04.09-23.27.49:221][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.49:262][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.27.49:316][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.27.49:343][465]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.04.09-23.27.53:337][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.28.00:912][297]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.09-23.28.07:785][797]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.04.09-23.28.08:081][797]LogSlate: Took 0.002531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.09-23.28.22:898][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.09-23.28.22:968][630]LogSavePackage: Moving '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Level2AEFD833944BD90E52B784898E98CF262.tmp' to '../../../../../../Users/petin/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Level2.umap'
