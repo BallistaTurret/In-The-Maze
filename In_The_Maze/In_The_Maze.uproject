@@ -13,12 +13,12 @@
 			"Enabled": true
 		},
 		{
-			"Name": "NiagaraExtras",
-			"Enabled": true
+			"Name": "OculusVR",
+			"Enabled": false
 		},
 		{
-			"Name": "ApexDestruction",
-			"Enabled": true
+			"Name": "DatasmithContent",
+			"Enabled": false
 		}
 	]
 }
