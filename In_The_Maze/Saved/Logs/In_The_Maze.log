@@ -379,3 +379,12 @@ LogInit: Object subsystem initialized
 [2019.05.02-00.48.42:875][ 47]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
 [2019.05.02-00.48.48:952][749]LogSlate: Window 'jumpscare*' being destroyed
 [2019.05.02-00.48.48:957][749]LogSlate: Window 'jumpscare*' being destroyed
+[2019.05.02-00.49.44:574][329]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.019
+[2019.05.02-00.49.44:585][329]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/jumpscare] ([1] browsable assets)...
+[2019.05.02-00.49.44:590][329]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/jumpscare.jumpscare]
+[2019.05.02-00.49.44:590][329]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/jumpscare]
+[2019.05.02-00.49.44:616][329]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/jumpscare_Auto1C5EA919A41A298D0E03B028A2084C654.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Textures/jumpscare_Auto1.uasset'
+[2019.05.02-00.49.44:625][329]LogFileHelpers: Auto-saving content packages took 0.050
+[2019.05.02-02.26.27:642][638]LogRenderer: Reallocating scene render targets to support 1312x924 Format 10 NumSamples 1 (Frame:216891).
+[2019.05.02-02.26.27:699][639]LogRenderer: Reallocating scene render targets to support 1312x968 Format 10 NumSamples 1 (Frame:216893).
+[2019.05.02-02.27.04:816][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
