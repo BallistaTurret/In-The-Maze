@@ -388,3 +388,167 @@ LogInit: Object subsystem initialized
 [2019.05.02-02.26.27:642][638]LogRenderer: Reallocating scene render targets to support 1312x924 Format 10 NumSamples 1 (Frame:216891).
 [2019.05.02-02.26.27:699][639]LogRenderer: Reallocating scene render targets to support 1312x968 Format 10 NumSamples 1 (Frame:216893).
 [2019.05.02-02.27.04:816][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-02.33.06:725][781]LogAIModule: Creating AISystem for world Jenna
+[2019.05.02-02.33.06:728][781]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Jenna.Jenna
+[2019.05.02-02.33.09:104][781]LogSlate: Window 'Save Content' being destroyed
+[2019.05.02-02.33.09:110][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/jumpscare" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Textures/jumpscare.uasset" SILENT=true
+[2019.05.02-02.33.09:167][781]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/jumpscareE4C2818C410EF88EE1C171AF84642675.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Textures/jumpscare.uasset'
+[2019.05.02-02.33.09:187][781]Cmd: MAP LOAD FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Jenna.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.02-02.33.09:187][781]LightingResults: New page: Lighting Build
+[2019.05.02-02.33.09:188][781]LoadErrors: New page: Loading map: Jenna.umap
+[2019.05.02-02.33.09:190][781]MapCheck: New page: Map Check
+[2019.05.02-02.33.09:190][781]LightingResults: New page: Lighting Build
+[2019.05.02-02.33.09:266][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.02-02.33.09:306][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.02-02.33.09:474][781]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 167.671ms to complete.
+[2019.05.02-02.33.09:475][781]LogFileHelpers: Loading map 'Jenna' took 0.290
+[2019.05.02-02.33.39:018][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-02.33.42:922][ 69]LogActorFactory: Actor Factory created arms
+[2019.05.02-02.33.43:775][152]LogActorFactory: Actor Factory created arms
+[2019.05.02-02.33.58:592][535]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-02.34.02:372][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.34.19:072][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-02.35.39:241][399]LogMetaData: Removing '/Game/Props/Import/greatUncleZane.greatUncleZane' ref from Metadata '/Game/Props/Import/yeet_pCube10.PackageMetaData'
+[2019.05.02-02.35.39:276][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/greatUncleZane" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncleZane.uasset" SILENT=true
+[2019.05.02-02.35.39:299][399]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/greatUncleZane74B5ABAB436075E0AC618AB16D5130F1.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncleZane.uasset'
+[2019.05.02-02.35.57:121][681]LogMetaData: Removing '/Game/Props/Import/uncleSteve.uncleSteve' ref from Metadata '/Game/Props/Import/yeet_pCylinder13.PackageMetaData'
+[2019.05.02-02.35.57:155][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/uncleSteve" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncleSteve.uasset" SILENT=true
+[2019.05.02-02.35.57:175][681]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/uncleSteve28F3EC424993B7C0A9AEE398C5229583.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncleSteve.uasset'
+[2019.05.02-02.36.11:696][460]LogMetaData: Removing '/Game/Props/Import/aunt.aunt' ref from Metadata '/Game/Props/Import/yeet_pCylinder18.PackageMetaData'
+[2019.05.02-02.36.11:727][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/aunt" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/aunt.uasset" SILENT=true
+[2019.05.02-02.36.11:749][460]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/auntD63BADF743E491B76593C6AC8CF2DB18.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/aunt.uasset'
+[2019.05.02-02.36.21:596][148]LogMetaData: Removing '/Game/Props/Import/greatUncle.greatUncle' ref from Metadata '/Game/Props/Import/greatUncleZane.PackageMetaData'
+[2019.05.02-02.36.21:625][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/greatUncle" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncle.uasset" SILENT=true
+[2019.05.02-02.36.21:649][148]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/greatUncleB65F7B4D468996FF802E7099E7470A5D.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncle.uasset'
+[2019.05.02-02.36.39:060][ 11]LogMetaData: Removing '/Game/Props/Import/cousin.cousin' ref from Metadata '/Game/Props/Import/yeet_polySurface12.PackageMetaData'
+[2019.05.02-02.36.39:091][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/cousin" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/cousin.uasset" SILENT=true
+[2019.05.02-02.36.39:111][ 11]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/cousinEAE0371B43ABAD7AFD7230ACB5282BB4.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/cousin.uasset'
+[2019.05.02-02.36.49:220][922]LogMetaData: Removing '/Game/Props/Import/grandpa.grandpa' ref from Metadata '/Game/Props/Import/yeet_polySurface20.PackageMetaData'
+[2019.05.02-02.36.49:250][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/grandpa" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandpa.uasset" SILENT=true
+[2019.05.02-02.36.49:273][922]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/grandpaF619593C4921C442676A9F86B6E14C5C.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandpa.uasset'
+[2019.05.02-02.37.14:538][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.37.44:709][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.41.07:620][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-02.41.13:982][447]LogMetaData: Removing '/Game/Props/Import/uncle.uncle' ref from Metadata '/Game/Props/Import/uncleSteve.PackageMetaData'
+[2019.05.02-02.41.14:011][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/uncle" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncle.uasset" SILENT=true
+[2019.05.02-02.41.14:034][447]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/uncleCA69943540C27F419083398CC281F596.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncle.uasset'
+[2019.05.02-02.43.07:146][920]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Jenna_Auto2A3946D7E401E1AC64B5963B8B7C0BB99.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Maps/Jenna_Auto2.umap'
+[2019.05.02-02.43.07:164][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jenna' took 0.080
+[2019.05.02-02.43.07:164][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.080
+[2019.05.02-02.43.45:613][162]LogActorFactory: Actor Factory created grandma
+[2019.05.02-02.43.46:265][222]LogActorFactory: Actor Factory created grandma
+[2019.05.02-02.43.55:579][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.43.57:319][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.02-02.44.06:245][317]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-02.44.15:563][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.05.02-02.44.35:706][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-02.44.41:683][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.02-02.44.42:590][677]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-02.46.20:145][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.46.22:565][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-02.46.23:578][122]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-02.46.24:243][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.46.32:623][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-02.46.33:639][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.48.29:275][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.02-02.48.29:563][294]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-02.48.30:158][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-02.51.21:149][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-02.53.07:471][ 76]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Jenna_Auto349FE1A814B494FC4332501B9A44817DF.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Maps/Jenna_Auto3.umap'
+[2019.05.02-02.53.07:487][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jenna' took 0.093
+[2019.05.02-02.53.07:487][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2019.05.02-03.04.30:722][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-03.04.32:918][180]Cmd: DELETE
+[2019.05.02-03.04.32:918][180]Cmd: ACTOR DELETE
+[2019.05.02-03.04.32:920][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.02-03.04.32:920][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.02-03.04.32:939][180]LogEditorActor: Deleted 2 Actors (0.021 secs)
+[2019.05.02-03.04.35:878][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-03.04.55:502][ 76]LogActorFactory: Actor Factory created arms
+[2019.05.02-03.04.55:503][ 76]LogActorFactory: Actor Factory created aunt
+[2019.05.02-03.04.55:504][ 76]LogActorFactory: Actor Factory created cousin
+[2019.05.02-03.04.55:505][ 76]LogActorFactory: Actor Factory created grandma
+[2019.05.02-03.04.55:505][ 76]LogActorFactory: Actor Factory created grandpa
+[2019.05.02-03.04.55:506][ 76]LogActorFactory: Actor Factory created greatUncle
+[2019.05.02-03.04.55:507][ 76]LogActorFactory: Actor Factory created toddrick
+[2019.05.02-03.04.55:507][ 76]LogActorFactory: Actor Factory created uncle
+[2019.05.02-03.04.55:733][ 99]LogActorFactory: Actor Factory created arms
+[2019.05.02-03.04.55:733][ 99]LogActorFactory: Actor Factory created aunt
+[2019.05.02-03.04.55:734][ 99]LogActorFactory: Actor Factory created cousin
+[2019.05.02-03.04.55:734][ 99]LogActorFactory: Actor Factory created grandma
+[2019.05.02-03.04.55:735][ 99]LogActorFactory: Actor Factory created grandpa
+[2019.05.02-03.04.55:735][ 99]LogActorFactory: Actor Factory created greatUncle
+[2019.05.02-03.04.55:736][ 99]LogActorFactory: Actor Factory created toddrick
+[2019.05.02-03.04.55:736][ 99]LogActorFactory: Actor Factory created uncle
+[2019.05.02-03.04.58:065][329]LogActorFactory: Actor Factory created arms
+[2019.05.02-03.04.58:083][329]LogActorFactory: Actor Factory created aunt
+[2019.05.02-03.04.58:100][329]LogActorFactory: Actor Factory created cousin
+[2019.05.02-03.04.58:117][329]LogActorFactory: Actor Factory created grandma
+[2019.05.02-03.04.58:134][329]LogActorFactory: Actor Factory created grandpa
+[2019.05.02-03.04.58:151][329]LogActorFactory: Actor Factory created greatUncle
+[2019.05.02-03.04.58:168][329]LogActorFactory: Actor Factory created toddrick
+[2019.05.02-03.04.58:185][329]LogActorFactory: Actor Factory created uncle
+[2019.05.02-03.05.08:024][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-03.05.08:682][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-03.05.14:109][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uncle)
+[2019.05.02-03.05.17:868][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (toddrick)
+[2019.05.02-03.05.29:443][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-03.05.36:116][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.02-03.05.42:669][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.02-03.05.48:621][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cousin)
+[2019.05.02-03.05.55:864][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.05.56:864][754]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.05.02-03.06.05:711][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.02-03.06.09:561][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.02-03.06.17:999][680]Cmd: TRANSACTION UNDO
+[2019.05.02-03.06.17:999][680]LogEditorTransaction: Undo Scale Actors
+[2019.05.02-03.06.22:756][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.06.30:519][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.02-03.06.35:943][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.06.37:791][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.02-03.06.43:724][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-03.06.52:052][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cousin)
+[2019.05.02-03.07.02:731][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uncle)
+[2019.05.02-03.07.07:264][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.02-03.07.10:831][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uncle)
+[2019.05.02-03.07.12:317][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.02-03.07.15:222][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (toddrick)
+[2019.05.02-03.07.22:235][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.07.22:954][690]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.05.02-03.07.47:252][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-03.07.50:516][ 68]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Jenna_Auto4545270D14DF99EED32967DA549401404.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Maps/Jenna_Auto4.umap'
+[2019.05.02-03.07.50:533][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jenna' took 0.091
+[2019.05.02-03.07.50:533][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
+[2019.05.02-03.11.30:539][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.11.35:412][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.14.01:255][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-03.43.01:359][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-03.43.02:395][326]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-03.43.12:029][172]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-03.43.32:380][ 37]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.32:380][ 37]LogEditorTransaction: Undo Rotate Actors
+[2019.05.02-03.43.37:646][512]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.37:646][512]LogEditorTransaction: Undo Move Actors
+[2019.05.02-03.43.38:486][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-03.43.40:085][723]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.40:085][723]LogEditorTransaction: Undo Move Actors
+[2019.05.02-03.43.40:910][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.02-03.43.59:218][464]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.59:218][464]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.02-03.43.59:460][479]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.59:460][479]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.02-03.43.59:657][490]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.59:657][490]LogEditorTransaction: Undo Rotate Actors
+[2019.05.02-03.43.59:928][514]Cmd: TRANSACTION UNDO
+[2019.05.02-03.43.59:928][514]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.02-03.44.27:430][692]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Jenna_Auto5B495C3FF4218EB1F707522BF0D3625D5.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/Maps/Jenna_Auto5.umap'
+[2019.05.02-03.44.27:445][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jenna' took 0.083
+[2019.05.02-03.44.27:445][692]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.083
+[2019.05.02-04.00.27:842][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-04.02.03:915][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cousin)
+[2019.05.02-04.02.04:126][503]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.02-04.04.13:734][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-05.02.12:233][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.02-05.02.13:166][758]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-05.02.13:177][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jenna" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Jenna.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.02-05.02.13:251][758]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Jenna8BC3EFCA4E432A05EBE79B928DC320F2.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Jenna.umap'
