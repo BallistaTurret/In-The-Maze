@@ -21,12 +21,13 @@ protected:
 
 	UFUNCTION(BlueprintCallable, Category="C++")
 	void HelpPlayer();
+	void SpawnFinalClue();
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FString hintText;
 	bool isCollected = false;
 	bool isRightStatueTrigger = false;
-	// bool ... There is a third bool here, I just forgot what it was
+	bool doesSpawnFinalClue = false;
 
 public:	
 	// Called every frame

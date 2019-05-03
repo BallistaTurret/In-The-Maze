@@ -36,3 +36,8 @@ void AStatuePawn::HelpPlayer()
 {
 
 }
+
+void AStatuePawn::SpawnFinalClue()
+{
+
+}
