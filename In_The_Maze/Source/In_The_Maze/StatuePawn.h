@@ -24,6 +24,9 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FString hintText;
+	bool isCollected = false;
+	bool isRightStatueTrigger = false;
+	// bool ... There is a third bool here, I just forgot what it was
 
 public:	
 	// Called every frame
