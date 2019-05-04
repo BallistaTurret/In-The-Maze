@@ -2167,3 +2167,75 @@ LogInit: Object subsystem initialized
 [2019.05.04-02.53.49:825][681]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap1withstatueF613383849BECDBF91A059AAE65A3D73.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues_Auto2.umap'
 [2019.05.04-02.53.49:843][681]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues' took 0.337
 [2019.05.04-02.53.49:843][681]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2019.05.04-03.47.06:927][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-03.51.07:240][  0]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-03.51.07:269][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-03.51.07:269][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-03.51.07:270][  0]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 7:51:07 PM)
+[2019.05.04-03.51.07:270][  0]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-03.51.07:289][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018844s)
+[2019.05.04-03.51.07:290][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-03.51.07:290][  0]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2019.05.04-03.51.07:290][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020574s)
+[2019.05.04-03.51.07:324][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-03.51.07:358][  0]LogInit: FAudioDevice initialized.
+[2019.05.04-03.51.07:358][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-03.51.07:387][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-03.51.07:395][  0]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-23.51.07
+[2019.05.04-03.51.07:396][  0]LogWorld: Bringing up level for play took: 0.007949
+[2019.05.04-03.51.07:410][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-03.51.07:414][  0]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.71
+[2019.05.04-03.51.07:414][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-03.53.34:344][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-03.53.34:345][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-03.53.34:395][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-03.53.34:396][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-03.53.34:441][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-03.53.34:459][529]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.05.04-03.53.44:978][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-03.54.41:574][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fountain_MAT)
+[2019.05.04-05.00.09:150][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie68)
+[2019.05.04-05.00.10:003][842]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-05.00.13:125][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (toddrick)
+[2019.05.04-05.00.19:720][346]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-05.00.35:634][256]Cmd: TRANSACTION UNDO
+[2019.05.04-05.00.35:634][256]LogEditorTransaction: Undo Rotate Actors
+[2019.05.04-05.00.35:662][256]LogMaterial: Display: Missing cached shader map for material statue, compiling. 
+[2019.05.04-05.00.35:705][256]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.04-05.00.35:705][256]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.04-05.00.35:705][256]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.05.04-05.00.35:705][256]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.05.04-05.00.35:992][268]Cmd: TRANSACTION UNDO
+[2019.05.04-05.00.35:992][268]LogEditorTransaction: Undo Move Actors
+[2019.05.04-05.00.35:995][268]LogMaterial: Display: Missing cached shader map for material statue, compiling. 
+[2019.05.04-05.00.36:608][301]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.04-05.00.36:640][303]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.04-05.00.36:657][304]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.05.04-05.00.36:676][304]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.05.04-05.00.36:930][317]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.05.04-05.00.36:930][317]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.04-05.00.36:930][317]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.05.04-05.00.36:967][319]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.05.04-05.00.37:221][333]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.04-05.00.37:221][333]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.04-05.00.37:238][334]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.04-05.00.37:248][335]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.04-05.00.37:431][345]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.05.04-05.00.37:545][351]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.05.04-05.00.37:703][360]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.05.04-05.00.37:721][361]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.04-05.00.37:885][370]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.04-05.00.38:011][377]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.05.04-05.00.38:049][379]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.04-05.00.38:206][388]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.04-05.00.38:301][393]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: Texture samplers: 4/16
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.05.04-05.00.38:647][412]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.05.04-05.01.15:812][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.01.16:192][483]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap1withstatue1C92C7BC4BAFF2CD70AA07AD616AC436.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues_Auto3.umap'
+[2019.05.04-05.01.16:341][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues' took 0.482
+[2019.05.04-05.01.16:341][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.482
