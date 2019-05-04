@@ -608,3 +608,1242 @@ LogInit: Object subsystem initialized
 [2019.05.04-01.02.44:986][442]LogActorFactory: Actor Factory created Fountain_MAT
 [2019.05.04-01.02.48:518][601]LogSlate: Took 0.006692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2019.05.04-01.03.50:031][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.04.56:794][761]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.04.56:827][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.04.56:827][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.04.56:840][761]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:04:56 PM)
+[2019.05.04-01.04.56:840][761]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.04.56:858][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018617s)
+[2019.05.04-01.04.56:859][761]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.04.56:859][761]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2019.05.04-01.04.56:859][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020034s)
+[2019.05.04-01.04.56:891][761]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.04.56:924][761]LogInit: FAudioDevice initialized.
+[2019.05.04-01.04.56:978][761]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.04.56:992][761]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.04.56
+[2019.05.04-01.04.56:995][761]LogWorld: Bringing up level for play took: 0.010956
+[2019.05.04-01.04.57:029][761]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 10 classes and 0 folders.
+[2019.05.04-01.04.57:031][761]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.587
+[2019.05.04-01.04.57:031][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.05.24:271][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.05.24:272][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.05.24:335][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-01.05.24:336][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.05.24:405][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.05.24:457][392]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.04-01.05.34:627][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fountain_MAT)
+[2019.05.04-01.05.35:289][981]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Fountain_MAT)
+[2019.05.04-01.05.35:345][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.05.37:240][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fountain_MAT)
+[2019.05.04-01.05.39:722][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fountain_MAT)
+[2019.05.04-01.05.39:777][217]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.05.04-01.05.43:612][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.05.43:896][381]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Props/Import/Fountain_MAT.Fountain_MAT
+[2019.05.04-01.06.17:453][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.06.17:622][516]LogSlate: Window 'Fountain_MAT' being destroyed
+[2019.05.04-01.06.17:654][516]LogSlate: Window 'Fountain_MAT' being destroyed
+[2019.05.04-01.06.29:937][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.06.30:206][975]LogActorFactory: Actor Factory created hedgie2
+[2019.05.04-01.06.37:616][370]LogActorFactory: Actor Factory created hedgie2
+[2019.05.04-01.06.54:532][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.06.59:730][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.05.04-01.07.00:603][572]Cmd: DELETE
+[2019.05.04-01.07.00:603][572]Cmd: ACTOR DELETE
+[2019.05.04-01.07.00:610][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.07.00:642][572]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.05.04-01.07.02:138][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie2)
+[2019.05.04-01.07.09:087][ 19]Cmd: TRANSACTION UNDO
+[2019.05.04-01.07.09:087][ 19]LogEditorTransaction: Undo Rotate Actors
+[2019.05.04-01.07.30:534][163]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.07.46:453][ 34]Cmd: TRANSACTION UNDO
+[2019.05.04-01.07.46:453][ 34]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.07.50:608][257]Cmd: TRANSACTION UNDO
+[2019.05.04-01.07.50:608][257]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.07.58:969][704]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.09.20:193][590]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.09.26:326][901]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.09.31:963][195]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.09.37:209][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.09.49:868][136]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.04-01.09.51:810][238]Cmd: DELETE
+[2019.05.04-01.09.51:810][238]Cmd: ACTOR DELETE
+[2019.05.04-01.09.51:814][238]LogEditorActor: Actor Light Source is referenced by SkySphereBlueprint.
+[2019.05.04-01.09.51:830][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.10.00:243][238]LogSlate: Window 'Message' being destroyed
+[2019.05.04-01.10.00:269][238]LogEditorActor: Deleted 0 Actors (8.460 secs)
+[2019.05.04-01.10.17:294][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.10.20:519][304]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.10.20:567][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.10.20:567][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.10.20:567][304]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:10:20 PM)
+[2019.05.04-01.10.20:567][304]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.10.20:586][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018665s)
+[2019.05.04-01.10.20:587][304]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.10.20:588][304]LogPlayLevel: PIE: World Init took: (0.001639s)
+[2019.05.04-01.10.20:588][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020568s)
+[2019.05.04-01.10.20:618][304]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.10.20:651][304]LogInit: FAudioDevice initialized.
+[2019.05.04-01.10.20:682][304]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.10.20:685][304]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.10.20
+[2019.05.04-01.10.20:685][304]LogWorld: Bringing up level for play took: 0.002467
+[2019.05.04-01.10.20:699][304]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.242
+[2019.05.04-01.10.20:699][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.10.25:576][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.10.25:577][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.10.25:626][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-01.10.25:626][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.10.25:671][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.10.25:690][638]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.04-01.10.41:966][530]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.04-01.10.43:413][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.10.44:546][663]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.04-01.10.45:318][703]Cmd: DELETE
+[2019.05.04-01.10.45:318][703]Cmd: ACTOR DELETE
+[2019.05.04-01.10.45:321][703]LogEditorActor: Actor Light Source is referenced by SkySphereBlueprint.
+[2019.05.04-01.10.45:341][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.10.50:995][703]LogSlate: Window 'Message' being destroyed
+[2019.05.04-01.10.51:017][703]LogEditorActor: Deleted 0 Actors (5.698 secs)
+[2019.05.04-01.10.56:660][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2019.05.04-01.10.57:135][ 21]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.11.04:855][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie2)
+[2019.05.04-01.11.06:293][472]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.11.20:141][165]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.11.32:590][791]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.11.40:983][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie15)
+[2019.05.04-01.11.45:437][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2019.05.04-01.11.45:852][464]Cmd: DELETE
+[2019.05.04-01.11.45:852][464]Cmd: ACTOR DELETE
+[2019.05.04-01.11.45:856][464]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.11.45:883][464]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.05.04-01.11.46:648][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie15)
+[2019.05.04-01.12.10:102][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.05.04-01.12.11:097][763]Cmd: DELETE
+[2019.05.04-01.12.11:097][763]Cmd: ACTOR DELETE
+[2019.05.04-01.12.11:103][763]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.12.11:130][763]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.05.04-01.12.11:863][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2019.05.04-01.12.12:132][812]Cmd: DELETE
+[2019.05.04-01.12.12:132][812]Cmd: ACTOR DELETE
+[2019.05.04-01.12.12:136][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.12.12:156][812]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.05.04-01.12.12:662][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2019.05.04-01.12.13:232][866]Cmd: DELETE
+[2019.05.04-01.12.13:232][866]Cmd: ACTOR DELETE
+[2019.05.04-01.12.13:237][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.12.13:275][866]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.05.04-01.12.18:173][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie16)
+[2019.05.04-01.12.22:202][344]Cmd: TRANSACTION UNDO
+[2019.05.04-01.12.22:202][344]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.12.39:168][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.12.39:996][111]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.12.42:438][311]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.12.42:487][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.12.42:487][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.12.42:488][311]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:12:42 PM)
+[2019.05.04-01.12.42:488][311]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.12.42:515][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027237s)
+[2019.05.04-01.12.42:516][311]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.12.42:516][311]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2019.05.04-01.12.42:516][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.028504s)
+[2019.05.04-01.12.42:547][311]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.12.42:579][311]LogInit: FAudioDevice initialized.
+[2019.05.04-01.12.42:580][311]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.12.42:616][311]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.12.42:622][311]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.12.42
+[2019.05.04-01.12.42:623][311]LogWorld: Bringing up level for play took: 0.005672
+[2019.05.04-01.12.42:643][311]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.182
+[2019.05.04-01.12.42:644][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.12.48:770][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.12.48:771][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.12.48:821][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-01.12.48:822][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.12.48:879][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.12.48:910][726]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.04-01.12.55:932][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie12)
+[2019.05.04-01.13.08:196][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie12)
+[2019.05.04-01.13.08:841][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2019.05.04-01.13.09:586][781]Cmd: DELETE
+[2019.05.04-01.13.09:586][781]Cmd: ACTOR DELETE
+[2019.05.04-01.13.09:590][781]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.13.09:613][781]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.05.04-01.13.10:196][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.05.04-01.13.11:603][883]Cmd: DELETE
+[2019.05.04-01.13.11:603][883]Cmd: ACTOR DELETE
+[2019.05.04-01.13.11:608][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.13.11:631][883]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.05.04-01.13.13:079][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie12)
+[2019.05.04-01.13.21:975][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2019.05.04-01.13.23:524][500]Cmd: DELETE
+[2019.05.04-01.13.23:524][500]Cmd: ACTOR DELETE
+[2019.05.04-01.13.23:529][500]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.13.23:560][500]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.05.04-01.13.23:997][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie17)
+[2019.05.04-01.13.26:995][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie13)
+[2019.05.04-01.13.32:825][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie16)
+[2019.05.04-01.13.41:386][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie18)
+[2019.05.04-01.13.41:856][450]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.13.50:519][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie19)
+[2019.05.04-01.13.51:663][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2019.05.04-01.13.52:491][972]Cmd: DELETE
+[2019.05.04-01.13.52:491][972]Cmd: ACTOR DELETE
+[2019.05.04-01.13.52:497][972]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.13.52:537][972]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.05.04-01.13.52:964][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.05.04-01.13.53:256][  7]Cmd: DELETE
+[2019.05.04-01.13.53:256][  7]Cmd: ACTOR DELETE
+[2019.05.04-01.13.53:260][  7]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.13.53:286][  7]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.05.04-01.13.54:089][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie19)
+[2019.05.04-01.14.05:675][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie12)
+[2019.05.04-01.14.29:081][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.14.34:411][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2019.05.04-01.14.34:857][163]Cmd: DELETE
+[2019.05.04-01.14.34:857][163]Cmd: ACTOR DELETE
+[2019.05.04-01.14.34:866][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.14.34:895][163]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.05.04-01.14.43:249][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie17)
+[2019.05.04-01.14.56:329][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube49)
+[2019.05.04-01.14.56:531][280]Cmd: DELETE
+[2019.05.04-01.14.56:531][280]Cmd: ACTOR DELETE
+[2019.05.04-01.14.56:537][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.14.56:568][280]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.05.04-01.14.56:972][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube50)
+[2019.05.04-01.14.57:176][311]Cmd: DELETE
+[2019.05.04-01.14.57:177][311]Cmd: ACTOR DELETE
+[2019.05.04-01.14.57:180][311]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.14.57:198][311]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.05.04-01.14.57:650][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2019.05.04-01.14.57:835][341]Cmd: DELETE
+[2019.05.04-01.14.57:835][341]Cmd: ACTOR DELETE
+[2019.05.04-01.14.57:838][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.14.57:857][341]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.15.13:086][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie20)
+[2019.05.04-01.15.18:455][442]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.15.26:773][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie20)
+[2019.05.04-01.15.37:766][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie23)
+[2019.05.04-01.15.44:889][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie23)
+[2019.05.04-01.16.02:786][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
+[2019.05.04-01.16.03:035][735]Cmd: DELETE
+[2019.05.04-01.16.03:035][735]Cmd: ACTOR DELETE
+[2019.05.04-01.16.03:037][735]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.16.03:057][735]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.05.04-01.16.09:908][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie23)
+[2019.05.04-01.16.11:407][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie22)
+[2019.05.04-01.16.18:764][548]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.16.44:482][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie23)
+[2019.05.04-01.17.08:291][179]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.17.25:342][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie27)
+[2019.05.04-01.17.27:630][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie28)
+[2019.05.04-01.17.27:844][185]Cmd: DELETE
+[2019.05.04-01.17.27:844][185]Cmd: ACTOR DELETE
+[2019.05.04-01.17.27:850][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.17.27:887][185]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2019.05.04-01.17.28:386][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie27)
+[2019.05.04-01.17.31:526][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.18.10:902][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2019.05.04-01.18.11:943][466]Cmd: DELETE
+[2019.05.04-01.18.11:943][466]Cmd: ACTOR DELETE
+[2019.05.04-01.18.11:950][466]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.18.11:983][466]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.05.04-01.18.23:237][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie27)
+[2019.05.04-01.18.28:322][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie22)
+[2019.05.04-01.18.31:934][498]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.18.42:808][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie31)
+[2019.05.04-01.18.52:226][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie32)
+[2019.05.04-01.18.54:186][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie26)
+[2019.05.04-01.19.09:285][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie31)
+[2019.05.04-01.19.57:079][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.20.01:683][159]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.20.12:128][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie15)
+[2019.05.04-01.20.18:805][ 32]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.20.32:873][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie6)
+[2019.05.04-01.20.50:067][648]Cmd: TRANSACTION UNDO
+[2019.05.04-01.20.50:067][648]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.20.59:327][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie38)
+[2019.05.04-01.21.05:646][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie15)
+[2019.05.04-01.21.26:402][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie41)
+[2019.05.04-01.21.32:925][907]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.21.37:051][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.21.43:788][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie38)
+[2019.05.04-01.21.48:763][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.22.06:129][586]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.22.39:472][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie37)
+[2019.05.04-01.22.47:773][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie42)
+[2019.05.04-01.22.54:672][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.23.00:799][379]Cmd: TRANSACTION UNDO
+[2019.05.04-01.23.00:799][379]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.23.32:062][957]LogEditorViewport: Clicking on Actor (LMB): EnemyStartTrigger_Blueprint_C (EnemyStartTrigger_Blueprint)
+[2019.05.04-01.23.47:920][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2019.05.04-01.23.48:112][777]Cmd: DELETE
+[2019.05.04-01.23.48:112][777]Cmd: ACTOR DELETE
+[2019.05.04-01.23.48:116][777]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.23.48:136][777]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.05.04-01.23.48:553][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2019.05.04-01.23.48:706][803]Cmd: DELETE
+[2019.05.04-01.23.48:706][803]Cmd: ACTOR DELETE
+[2019.05.04-01.23.48:709][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.23.48:729][803]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.23.49:071][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2019.05.04-01.23.50:600][898]Cmd: DELETE
+[2019.05.04-01.23.50:600][898]Cmd: ACTOR DELETE
+[2019.05.04-01.23.50:605][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.23.50:631][898]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.05.04-01.23.52:659][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie36)
+[2019.05.04-01.24.04:600][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie35)
+[2019.05.04-01.24.25:585][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie2)
+[2019.05.04-01.24.57:417][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie43)
+[2019.05.04-01.25.00:339][483]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.25.18:112][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie40)
+[2019.05.04-01.25.19:768][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie56)
+[2019.05.04-01.25.20:398][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie40)
+[2019.05.04-01.25.24:563][673]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.25.27:471][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie57)
+[2019.05.04-01.25.35:760][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie41)
+[2019.05.04-01.25.40:178][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie42)
+[2019.05.04-01.25.51:518][ 20]Cmd: TRANSACTION UNDO
+[2019.05.04-01.25.51:518][ 20]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.25.51:850][ 30]Cmd: TRANSACTION UNDO
+[2019.05.04-01.25.51:850][ 30]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.25.53:683][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie57)
+[2019.05.04-01.25.58:091][336]Cmd: TRANSACTION UNDO
+[2019.05.04-01.25.58:091][336]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.26.11:079][968]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.26.17:184][258]Cmd: TRANSACTION UNDO
+[2019.05.04-01.26.17:184][258]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.26.19:055][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie56)
+[2019.05.04-01.26.22:202][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fountain_MAT)
+[2019.05.04-01.26.27:469][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie59)
+[2019.05.04-01.26.34:515][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube45)
+[2019.05.04-01.26.35:239][144]Cmd: DELETE
+[2019.05.04-01.26.35:239][144]Cmd: ACTOR DELETE
+[2019.05.04-01.26.35:250][144]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.26.35:279][144]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.05.04-01.26.35:979][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2019.05.04-01.26.36:375][199]Cmd: DELETE
+[2019.05.04-01.26.36:375][199]Cmd: ACTOR DELETE
+[2019.05.04-01.26.36:379][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.26.36:399][199]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.26.36:825][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube39)
+[2019.05.04-01.26.37:077][231]Cmd: DELETE
+[2019.05.04-01.26.37:077][231]Cmd: ACTOR DELETE
+[2019.05.04-01.26.37:080][231]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.26.37:100][231]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.26.37:554][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.05.04-01.26.38:545][302]Cmd: DELETE
+[2019.05.04-01.26.38:545][302]Cmd: ACTOR DELETE
+[2019.05.04-01.26.38:548][302]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.26.38:567][302]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.05.04-01.26.49:060][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie33)
+[2019.05.04-01.26.56:090][216]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.27.31:115][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie28)
+[2019.05.04-01.27.43:643][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2019.05.04-01.27.43:815][609]Cmd: DELETE
+[2019.05.04-01.27.43:816][609]Cmd: ACTOR DELETE
+[2019.05.04-01.27.43:819][609]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.27.43:838][609]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.27.44:275][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube42)
+[2019.05.04-01.27.44:796][656]Cmd: DELETE
+[2019.05.04-01.27.44:796][656]Cmd: ACTOR DELETE
+[2019.05.04-01.27.44:803][656]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.27.44:826][656]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.05.04-01.27.48:278][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.04-01.27.49:717][905]Cmd: DELETE
+[2019.05.04-01.27.49:718][905]Cmd: ACTOR DELETE
+[2019.05.04-01.27.49:724][905]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.27.49:748][905]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.05.04-01.27.58:171][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie33)
+[2019.05.04-01.27.58:868][386]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.28.06:260][741]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.28.12:125][ 60]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.28.27:138][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.28.32:901][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie26)
+[2019.05.04-01.28.37:428][293]Cmd: TRANSACTION UNDO
+[2019.05.04-01.28.37:428][293]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.28.38:681][352]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.28.57:888][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie31)
+[2019.05.04-01.29.05:281][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.29.19:809][313]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.29.19:848][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.29.19:848][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.29.19:848][313]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:29:19 PM)
+[2019.05.04-01.29.19:848][313]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.29.19:892][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043533s)
+[2019.05.04-01.29.19:893][313]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.29.19:894][313]LogPlayLevel: PIE: World Init took: (0.001586s)
+[2019.05.04-01.29.19:894][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.045422s)
+[2019.05.04-01.29.19:935][313]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.29.19:968][313]LogInit: FAudioDevice initialized.
+[2019.05.04-01.29.19:968][313]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.29.20:000][313]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.29.20:011][313]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.29.20
+[2019.05.04-01.29.20:013][313]LogWorld: Bringing up level for play took: 0.012594
+[2019.05.04-01.29.20:029][313]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-01.29.20:035][313]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues -0.444
+[2019.05.04-01.29.20:035][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.29.43:393][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.29.43:393][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.29.43:446][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-01.29.43:446][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.29.43:502][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.29.43:537][779]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.04-01.29.54:101][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2019.05.04-01.29.54:824][372]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.30.00:028][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.30.00:304][618]LogActorFactory: Actor Factory created hedgie2
+[2019.05.04-01.30.07:619][997]LogActorFactory: Actor Factory created hedgie2
+[2019.05.04-01.30.08:061][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2019.05.04-01.30.09:649][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2019.05.04-01.30.11:009][161]Cmd: DELETE
+[2019.05.04-01.30.11:009][161]Cmd: ACTOR DELETE
+[2019.05.04-01.30.11:019][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.30.11:057][161]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2019.05.04-01.30.11:414][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie65)
+[2019.05.04-01.30.22:352][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2019.05.04-01.30.22:683][742]Cmd: DELETE
+[2019.05.04-01.30.22:683][742]Cmd: ACTOR DELETE
+[2019.05.04-01.30.22:690][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.30.22:719][742]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.05.04-01.30.23:980][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie65)
+[2019.05.04-01.30.34:385][359]Cmd: TRANSACTION UNDO
+[2019.05.04-01.30.34:386][359]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.30.38:035][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2019.05.04-01.30.38:234][555]Cmd: DELETE
+[2019.05.04-01.30.38:234][555]Cmd: ACTOR DELETE
+[2019.05.04-01.30.38:242][555]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.30.38:278][555]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2019.05.04-01.30.41:801][751]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.30.41:801][751]Can't find target actor or component.
+[2019.05.04-01.30.43:983][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie11)
+[2019.05.04-01.31.04:418][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2019.05.04-01.31.05:967][999]Cmd: DELETE
+[2019.05.04-01.31.05:967][999]Cmd: ACTOR DELETE
+[2019.05.04-01.31.05:974][999]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.31.06:004][999]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.05.04-01.31.11:076][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie69)
+[2019.05.04-01.31.13:995][357]Cmd: TRANSACTION UNDO
+[2019.05.04-01.31.13:996][357]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.31.22:687][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2019.05.04-01.31.24:183][895]Cmd: DELETE
+[2019.05.04-01.31.24:183][895]Cmd: ACTOR DELETE
+[2019.05.04-01.31.24:189][895]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.31.24:223][895]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.05.04-01.31.24:750][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie70)
+[2019.05.04-01.31.25:284][948]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.31.32:934][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2019.05.04-01.31.33:380][348]Cmd: DELETE
+[2019.05.04-01.31.33:380][348]Cmd: ACTOR DELETE
+[2019.05.04-01.31.33:385][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.31.33:417][348]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.05.04-01.31.33:813][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie70)
+[2019.05.04-01.31.44:719][947]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.31.49:774][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie67)
+[2019.05.04-01.32.00:715][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.32.05:056][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie71)
+[2019.05.04-01.32.11:354][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie70)
+[2019.05.04-01.32.15:660][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie69)
+[2019.05.04-01.32.20:005][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie68)
+[2019.05.04-01.32.24:910][996]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.32.27:082][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.32.29:551][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie68)
+[2019.05.04-01.32.40:873][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2019.05.04-01.32.42:418][869]Cmd: DELETE
+[2019.05.04-01.32.42:418][869]Cmd: ACTOR DELETE
+[2019.05.04-01.32.42:424][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.32.42:456][869]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.05.04-01.32.45:311][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2019.05.04-01.32.45:565][ 34]Cmd: DELETE
+[2019.05.04-01.32.45:565][ 34]Cmd: ACTOR DELETE
+[2019.05.04-01.32.45:568][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.32.45:588][ 34]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.32.46:005][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2019.05.04-01.32.46:107][ 57]Cmd: DELETE
+[2019.05.04-01.32.46:108][ 57]Cmd: ACTOR DELETE
+[2019.05.04-01.32.46:111][ 57]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.32.46:134][ 57]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.05.04-01.32.50:427][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie71)
+[2019.05.04-01.32.58:625][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie72)
+[2019.05.04-01.33.03:237][955]Cmd: TRANSACTION UNDO
+[2019.05.04-01.33.03:237][955]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.33.05:789][ 82]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.33.10:658][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2019.05.04-01.33.11:862][393]Cmd: DELETE
+[2019.05.04-01.33.11:862][393]Cmd: ACTOR DELETE
+[2019.05.04-01.33.11:869][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.33.11:909][393]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.05.04-01.33.12:675][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie72)
+[2019.05.04-01.33.17:308][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2019.05.04-01.33.18:206][716]Cmd: DELETE
+[2019.05.04-01.33.18:206][716]Cmd: ACTOR DELETE
+[2019.05.04-01.33.18:213][716]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.33.18:244][716]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.05.04-01.33.19:444][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie74)
+[2019.05.04-01.33.26:975][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie68)
+[2019.05.04-01.33.44:627][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.33.48:656][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2019.05.04-01.33.48:781][303]Cmd: DELETE
+[2019.05.04-01.33.48:781][303]Cmd: ACTOR DELETE
+[2019.05.04-01.33.48:784][303]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.33.48:804][303]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.33.59:280][854]LogEditorViewport: Clicking on Actor (LMB): GhoulBlueprint_C (GhoulBlueprint)
+[2019.05.04-01.34.38:034][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.34.40:341][ 33]Cmd: TRANSACTION UNDO
+[2019.05.04-01.34.40:341][ 33]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.34.41:367][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.34.43:005][166]LogEditorViewport: Clicking on Actor (LMB): GhoulBlueprint_C (GhoulBlueprint)
+[2019.05.04-01.34.47:634][409]Cmd: DELETE
+[2019.05.04-01.34.47:634][409]Cmd: ACTOR DELETE
+[2019.05.04-01.34.47:639][409]LogEditorActor: Deleted Actor: GhoulBlueprint_C
+[2019.05.04-01.34.47:663][409]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.05.04-01.34.50:991][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie75)
+[2019.05.04-01.34.52:755][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie11)
+[2019.05.04-01.35.07:712][445]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.35.27:981][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.36:419][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.39:030][ 45]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.04-01.35.39:071][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.35.42:274][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie74)
+[2019.05.04-01.35.46:071][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.46:518][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.48:914][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.35.49:633][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.50:128][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.54:396][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.54:456][780]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.05.04-01.35.54:848][797]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.05.04-01.35.54:912][798]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2019.05.04-01.35.55:567][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.35.57:898][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie78)
+[2019.05.04-01.35.58:978][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie75)
+[2019.05.04-01.36.00:093][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.36.00:821][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie77)
+[2019.05.04-01.36.03:968][219]Cmd: EDIT CUT
+[2019.05.04-01.36.03:983][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.36.04:021][219]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.05.04-01.36.04:885][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.05:280][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.05:628][293]LogEditorViewport: Clicking on Actor (LMB): InvisibleSFXWall_BP_C (InvisibleSFXWall_BP)
+[2019.05.04-01.36.36:465][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.36.36:780][871]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap1withstatue6036AD1145CFCD6D9E3972B824D85C4B.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues_Auto1.umap'
+[2019.05.04-01.36.36:798][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues' took 0.284
+[2019.05.04-01.36.36:798][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2019.05.04-01.36.41:992][132]Cmd: EDIT PASTE
+[2019.05.04-01.36.45:303][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.47:112][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.50:327][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.51:184][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.51:455][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.36.51:832][604]LogEditorViewport: Clicking on Actor (LMB): InvisibleSFXWall_BP_C (InvisibleSFXWall_BP)
+[2019.05.04-01.37.03:177][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie70)
+[2019.05.04-01.37.03:577][193]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.37.07:443][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie68)
+[2019.05.04-01.37.09:834][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie70)
+[2019.05.04-01.37.12:135][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie69)
+[2019.05.04-01.37.18:738][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.37.19:147][888]LogActorFactory: Actor Factory created toddrick
+[2019.05.04-01.37.19:730][915]LogActorFactory: Actor Factory created toddrick
+[2019.05.04-01.37.30:001][443]Cmd: DELETE
+[2019.05.04-01.37.30:001][443]Cmd: ACTOR DELETE
+[2019.05.04-01.37.30:005][443]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.37.30:026][443]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.05.04-01.37.34:754][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-01.37.54:610][219]LogActorFactory: Actor Factory created arms
+[2019.05.04-01.37.54:610][219]LogActorFactory: Actor Factory created aunt
+[2019.05.04-01.37.54:611][219]LogActorFactory: Actor Factory created cousin
+[2019.05.04-01.37.54:611][219]LogActorFactory: Actor Factory created grandma
+[2019.05.04-01.37.54:612][219]LogActorFactory: Actor Factory created grandpa
+[2019.05.04-01.37.54:612][219]LogActorFactory: Actor Factory created greatUncle
+[2019.05.04-01.37.54:613][219]LogActorFactory: Actor Factory created toddrick
+[2019.05.04-01.37.54:613][219]LogActorFactory: Actor Factory created uncle
+[2019.05.04-01.37.55:658][275]LogActorFactory: Actor Factory created arms
+[2019.05.04-01.37.55:676][275]LogActorFactory: Actor Factory created aunt
+[2019.05.04-01.37.55:692][275]LogActorFactory: Actor Factory created cousin
+[2019.05.04-01.37.55:707][275]LogActorFactory: Actor Factory created grandma
+[2019.05.04-01.37.55:723][275]LogActorFactory: Actor Factory created grandpa
+[2019.05.04-01.37.55:739][275]LogActorFactory: Actor Factory created greatUncle
+[2019.05.04-01.37.55:755][275]LogActorFactory: Actor Factory created toddrick
+[2019.05.04-01.37.55:773][275]LogActorFactory: Actor Factory created uncle
+[2019.05.04-01.38.22:873][676]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.38.26:299][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.38.27:479][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.04-01.38.35:792][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.04-01.38.40:012][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.38.40:422][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.04-01.38.44:022][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uncle)
+[2019.05.04-01.38.49:493][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.04-01.38.53:138][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cousin)
+[2019.05.04-01.38.56:700][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.04-01.38.59:874][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (toddrick)
+[2019.05.04-01.39.09:868][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.13:389][112]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.17:249][305]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.23:833][632]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.30:422][  4]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.43:510][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uncle)
+[2019.05.04-01.39.52:007][115]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.39.54:852][250]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.40.59:235][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie20)
+[2019.05.04-01.41.00:119][655]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.41.09:004][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.04-01.41.13:904][325]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.41.25:984][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.41.26:995][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (arms)
+[2019.05.04-01.41.52:512][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cousin)
+[2019.05.04-01.41.58:775][565]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.42.09:844][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.04-01.42.10:880][161]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.42.21:121][680]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.42.21:154][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.42.21:154][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.42.21:154][680]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:42:21 PM)
+[2019.05.04-01.42.21:154][680]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.42.21:174][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019815s)
+[2019.05.04-01.42.21:176][680]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.42.21:176][680]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2019.05.04-01.42.21:176][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.021478s)
+[2019.05.04-01.42.21:208][680]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.42.21:242][680]LogInit: FAudioDevice initialized.
+[2019.05.04-01.42.21:242][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.42.21:277][680]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.42.21:280][680]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.42.21
+[2019.05.04-01.42.21:281][680]LogWorld: Bringing up level for play took: 0.003140
+[2019.05.04-01.42.21:293][680]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-01.42.21:295][680]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.81
+[2019.05.04-01.42.21:295][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.42.35:247][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.42.35:247][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.42.35:297][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-01.42.35:297][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.42.35:349][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-01.42.35:389][568]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.04-01.42.45:855][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie45)
+[2019.05.04-01.42.53:632][493]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.42.59:862][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.43.03:553][982]Cmd: DELETE
+[2019.05.04-01.43.03:553][982]Cmd: ACTOR DELETE
+[2019.05.04-01.43.03:557][982]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.43.03:579][982]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.05.04-01.43.04:091][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie38)
+[2019.05.04-01.43.13:547][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie37)
+[2019.05.04-01.43.14:208][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie36)
+[2019.05.04-01.43.23:914][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie37)
+[2019.05.04-01.43.30:052][306]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.43.34:868][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.43.42:578][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie45)
+[2019.05.04-01.43.52:968][440]Cmd: TRANSACTION UNDO
+[2019.05.04-01.43.52:968][440]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.43.53:354][455]Cmd: TRANSACTION UNDO
+[2019.05.04-01.43.53:354][455]LogEditorTransaction: Undo Scale Actors
+[2019.05.04-01.44.08:153][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie38)
+[2019.05.04-01.44.13:545][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.44.21:172][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie42)
+[2019.05.04-01.44.26:353][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie38)
+[2019.05.04-01.44.31:789][353]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.44.38:768][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie45)
+[2019.05.04-01.45.01:467][821]Cmd: TRANSACTION UNDO
+[2019.05.04-01.45.01:467][821]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.45.35:960][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie20)
+[2019.05.04-01.45.43:738][949]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.45.50:600][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.46.35:985][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.46.39:440][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.46.50:950][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie40)
+[2019.05.04-01.47.01:406][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie82)
+[2019.05.04-01.47.02:391][377]Cmd: DELETE
+[2019.05.04-01.47.02:391][377]Cmd: ACTOR DELETE
+[2019.05.04-01.47.02:395][377]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.47.02:415][377]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.05.04-01.47.05:195][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie81)
+[2019.05.04-01.47.07:957][660]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.47.17:017][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.04-01.47.20:976][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie39)
+[2019.05.04-01.47.30:963][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie81)
+[2019.05.04-01.47.37:389][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.47.52:404][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie83)
+[2019.05.04-01.47.55:450][952]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.48.26:324][486]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.49.06:771][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.04-01.49.11:023][743]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.49.14:517][912]Cmd: TRANSACTION UNDO
+[2019.05.04-01.49.14:517][912]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.49.24:707][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.49.30:526][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandpa)
+[2019.05.04-01.49.33:037][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.49.47:495][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie81)
+[2019.05.04-01.49.53:837][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.50.13:945][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie84)
+[2019.05.04-01.50.16:916][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie83)
+[2019.05.04-01.50.24:860][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie85)
+[2019.05.04-01.50.29:682][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.50.48:606][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie59)
+[2019.05.04-01.50.57:267][893]Cmd: TRANSACTION UNDO
+[2019.05.04-01.50.57:267][893]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.50.57:995][926]Cmd: TRANSACTION UNDO
+[2019.05.04-01.50.57:995][926]LogEditorTransaction: Undo Scale Actors
+[2019.05.04-01.50.59:066][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie59)
+[2019.05.04-01.51.04:742][256]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.51.09:245][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.51.09:876][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie59)
+[2019.05.04-01.51.10:022][392]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.51.13:459][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie64)
+[2019.05.04-01.51.31:336][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie33)
+[2019.05.04-01.51.32:057][459]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.51.39:463][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.51.45:854][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie33)
+[2019.05.04-01.51.54:727][570]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.52.00:008][840]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.00:008][840]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.52.00:280][844]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.00:280][844]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-01.52.02:786][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie59)
+[2019.05.04-01.52.11:091][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie34)
+[2019.05.04-01.52.17:760][723]Cmd: EDIT CUT
+[2019.05.04-01.52.17:770][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-01.52.17:798][723]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.05.04-01.52.18:502][762]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.18:502][762]LogEditorTransaction: Undo Cut
+[2019.05.04-01.52.18:728][769]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.18:729][769]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.52.19:180][788]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.19:180][788]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-01.52.19:624][809]Cmd: TRANSACTION UNDO
+[2019.05.04-01.52.19:624][809]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.52.20:504][853]Cmd: EDIT PASTE
+[2019.05.04-01.52.25:226][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie33)
+[2019.05.04-01.52.30:298][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.52.36:683][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie88)
+[2019.05.04-01.52.40:021][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie87)
+[2019.05.04-01.52.44:615][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.52.57:859][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie87)
+[2019.05.04-01.53.02:948][985]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.53.10:106][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.53.28:458][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie60)
+[2019.05.04-01.53.32:332][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.53.47:468][136]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.54.05:208][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie61)
+[2019.05.04-01.54.22:147][866]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.54.40:329][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie91)
+[2019.05.04-01.54.44:029][970]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.54.47:619][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie91)
+[2019.05.04-01.54.53:659][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.54.57:144][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.54.57:708][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-01.54.58:414][670]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-01.55.52:278][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greatUncle)
+[2019.05.04-01.55.57:099][777]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.56.27:011][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.04-01.56.36:389][718]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.56.47:208][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (aunt)
+[2019.05.04-01.56.54:638][629]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.57.06:285][211]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-01.57.09:707][379]Cmd: TRANSACTION UNDO
+[2019.05.04-01.57.09:707][379]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.57.13:439][554]Cmd: TRANSACTION UNDO
+[2019.05.04-01.57.13:439][554]LogEditorTransaction: Undo Move Actors
+[2019.05.04-01.57.23:970][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandma)
+[2019.05.04-01.57.28:155][273]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-01.57.55:242][572]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-01.57.55:279][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-01.57.55:279][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-01.57.55:279][572]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 5:57:55 PM)
+[2019.05.04-01.57.55:279][572]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-01.57.55:299][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019232s)
+[2019.05.04-01.57.55:300][572]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-01.57.55:300][572]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2019.05.04-01.57.55:300][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020404s)
+[2019.05.04-01.57.55:333][572]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-01.57.55:366][572]LogInit: FAudioDevice initialized.
+[2019.05.04-01.57.55:367][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-01.57.55:395][572]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-01.57.55:399][572]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-21.57.55
+[2019.05.04-01.57.55:399][572]LogWorld: Bringing up level for play took: 0.003319
+[2019.05.04-01.57.55:412][572]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-01.57.55:415][572]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.927
+[2019.05.04-01.57.55:415][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.01.23:901][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.01.23:901][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.01.23:945][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.01.23:945][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.01.23:973][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.01.24:013][898]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.04-02.01.47:265][122]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.01.47:319][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.01.47:319][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.01.47:319][122]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:01:47 PM)
+[2019.05.04-02.01.47:319][122]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.01.47:337][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018248s)
+[2019.05.04-02.01.47:338][122]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.01.47:338][122]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2019.05.04-02.01.47:338][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.019448s)
+[2019.05.04-02.01.47:367][122]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.01.47:403][122]LogInit: FAudioDevice initialized.
+[2019.05.04-02.01.47:403][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.01.47:439][122]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.01.47:455][122]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.01.47
+[2019.05.04-02.01.47:457][122]LogWorld: Bringing up level for play took: 0.014777
+[2019.05.04-02.01.47:472][122]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.01.47:474][122]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.986
+[2019.05.04-02.01.47:475][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.30:270][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.30:270][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.02.30:317][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.02.30:318][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.30:387][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.02.30:427][821]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.04-02.02.32:314][921]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.02.32:378][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.32:378][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.02.32:378][921]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:02:32 PM)
+[2019.05.04-02.02.32:379][921]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.02.32:399][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019977s)
+[2019.05.04-02.02.32:399][921]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.02.32:400][921]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2019.05.04-02.02.32:400][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.021189s)
+[2019.05.04-02.02.32:430][921]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.02.32:462][921]LogInit: FAudioDevice initialized.
+[2019.05.04-02.02.32:462][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.02.32:490][921]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.02.32:499][921]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.02.32
+[2019.05.04-02.02.32:500][921]LogWorld: Bringing up level for play took: 0.009777
+[2019.05.04-02.02.32:514][921]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.02.32:519][921]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.03
+[2019.05.04-02.02.32:519][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.57:538][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.57:538][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.02.57:598][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.02.57:599][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.02.57:656][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.02.57:691][531]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.04-02.03.11:267][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.03.15:678][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.03.16:445][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.03.17:203][504]LogEditorViewport: Clicking on Actor (LMB): EnemyStartTrigger_Blueprint_C (EnemyStartTrigger_Blueprint)
+[2019.05.04-02.03.20:632][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.03.28:797][ 68]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.03.29:584][103]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.03.32:894][262]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.EnemyCharacter_BP_2.GhoulMesh' 
+[2019.05.04-02.03.32:894][262]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.EnemyCharacter_BP_2.Sphere' 
+[2019.05.04-02.03.32:894][262]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.EnemyCharacter_BP_2.GhoulMesh' 
+[2019.05.04-02.03.37:606][501]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.03.37:637][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.03.37:637][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.03.37:637][501]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:03:37 PM)
+[2019.05.04-02.03.37:637][501]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.03.37:656][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019321s)
+[2019.05.04-02.03.37:657][501]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.03.37:657][501]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2019.05.04-02.03.37:657][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020530s)
+[2019.05.04-02.03.37:689][501]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.03.37:721][501]LogInit: FAudioDevice initialized.
+[2019.05.04-02.03.37:721][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.03.37:753][501]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.03.37:757][501]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.03.37
+[2019.05.04-02.03.37:757][501]LogWorld: Bringing up level for play took: 0.003669
+[2019.05.04-02.03.37:769][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.03.37:771][501]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues -0.719
+[2019.05.04-02.03.37:771][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.04.15:572][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.04.15:572][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.04.15:622][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.04.15:623][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.04.15:668][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.04.15:701][995]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.04-02.04.23:541][385]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.04.31:155][756]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.04.41:250][260]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.04.41:298][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.04.41:298][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.04.41:298][260]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:04:41 PM)
+[2019.05.04-02.04.41:298][260]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.04.41:315][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017465s)
+[2019.05.04-02.04.41:316][260]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.04.41:316][260]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2019.05.04-02.04.41:317][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.018851s)
+[2019.05.04-02.04.41:349][260]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.04.41:381][260]LogInit: FAudioDevice initialized.
+[2019.05.04-02.04.41:381][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.04.41:412][260]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.04.41:421][260]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.04.41
+[2019.05.04-02.04.41:422][260]LogWorld: Bringing up level for play took: 0.008165
+[2019.05.04-02.04.41:436][260]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.04.41:442][260]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.953
+[2019.05.04-02.04.41:442][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.18:082][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.18:083][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.05.18:128][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.05.18:128][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.18:160][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.05.18:194][511]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.04-02.05.20:750][644]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.05.20:806][644]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.20:806][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.05.20:806][644]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:05:20 PM)
+[2019.05.04-02.05.20:806][644]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.05.20:848][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041516s)
+[2019.05.04-02.05.20:850][644]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.05.20:851][644]LogPlayLevel: PIE: World Init took: (0.002930s)
+[2019.05.04-02.05.20:851][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.044859s)
+[2019.05.04-02.05.20:894][644]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.05.20:926][644]LogInit: FAudioDevice initialized.
+[2019.05.04-02.05.20:926][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.05.20:958][644]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.05.20:962][644]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.05.20
+[2019.05.04-02.05.20:963][644]LogWorld: Bringing up level for play took: 0.003368
+[2019.05.04-02.05.20:976][644]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.05.20:982][644]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.493
+[2019.05.04-02.05.20:983][644]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.49:932][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.49:933][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.05.49:979][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.05.49:979][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.05.50:007][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.05.50:041][526]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.04-02.05.54:681][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.05.54:681][770]Can't find target actor or component.
+[2019.05.04-02.05.57:821][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.05.58:145][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.06.01:243][122]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.06.01:437][129]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.06.04:306][270]Cmd: TRANSACTION UNDO
+[2019.05.04-02.06.04:306][270]LogEditorTransaction: Undo Move Actors
+[2019.05.04-02.06.09:869][545]Cmd: TRANSACTION UNDO
+[2019.05.04-02.06.09:869][545]LogEditorTransaction: Undo Scale Actors
+[2019.05.04-02.06.10:747][583]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.06.10:803][583]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.06.14:074][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-02.06.14:256][719]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Props/Import/bigboy.bigboy
+[2019.05.04-02.06.43:961][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-02.06.44:076][679]LogSlate: Window 'bigboy' being destroyed
+[2019.05.04-02.06.44:109][679]LogSlate: Window 'bigboy' being destroyed
+[2019.05.04-02.06.56:963][300]Cmd: TRANSACTION UNDO
+[2019.05.04-02.06.56:963][300]LogEditorTransaction: Undo Scale Components
+[2019.05.04-02.06.58:425][334]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.07.04:668][640]Cmd: TRANSACTION UNDO
+[2019.05.04-02.07.04:669][640]LogEditorTransaction: Undo Scale Components
+[2019.05.04-02.07.05:993][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.07.07:832][781]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.07.12:093][999]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.07.13:163][ 51]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.07.14:346][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie90)
+[2019.05.04-02.07.15:944][189]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.07.21:109][456]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.07.21:196][457]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.07.30:781][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.07.35:026][160]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.07.48:004][823]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.07.48:043][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.07.48:043][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.07.48:043][823]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:07:48 PM)
+[2019.05.04-02.07.48:043][823]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.07.48:062][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018432s)
+[2019.05.04-02.07.48:062][823]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.07.48:063][823]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2019.05.04-02.07.48:063][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.019748s)
+[2019.05.04-02.07.48:095][823]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.07.48:128][823]LogInit: FAudioDevice initialized.
+[2019.05.04-02.07.48:128][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.07.48:156][823]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.07.48:160][823]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.07.48
+[2019.05.04-02.07.48:161][823]LogWorld: Bringing up level for play took: 0.003458
+[2019.05.04-02.07.48:172][823]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.07.48:174][823]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues -0.317
+[2019.05.04-02.07.48:174][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.01:919][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.01:920][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.08.01:968][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.08.01:968][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.02:022][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.08.02:060][693]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.04-02.08.05:731][875]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.08.12:798][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie87)
+[2019.05.04-02.08.14:205][290]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.08.14:736][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie87)
+[2019.05.04-02.08.14:855][314]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.05.04-02.08.15:540][344]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.08.15:959][361]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.08.16:018][361]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.08.21:478][632]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.08.21:536][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.21:537][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.08.21:537][632]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:08:21 PM)
+[2019.05.04-02.08.21:537][632]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.08.21:571][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034061s)
+[2019.05.04-02.08.21:573][632]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.08.21:573][632]LogPlayLevel: PIE: World Init took: (0.001469s)
+[2019.05.04-02.08.21:573][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.035888s)
+[2019.05.04-02.08.21:605][632]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.08.21:640][632]LogInit: FAudioDevice initialized.
+[2019.05.04-02.08.21:640][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.08.21:677][632]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.08.21:686][632]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.08.21
+[2019.05.04-02.08.21:687][632]LogWorld: Bringing up level for play took: 0.007741
+[2019.05.04-02.08.21:701][632]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.08.21:704][632]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues -0.79
+[2019.05.04-02.08.21:705][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.59:115][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.59:116][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.08.59:164][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.08.59:164][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.08.59:196][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.08.59:232][977]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.05.04-02.09.05:244][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie2)
+[2019.05.04-02.09.06:828][340]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.09.08:251][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.09.09:655][476]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.05.04-02.09.17:994][822]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.09.36:615][571]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.05.04-02.09.37:314][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.09.38:691][671]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.09.39:133][689]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.09.39:335][700]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.09.50:563][271]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.09.51:048][294]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.09.51:105][294]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.10.17:419][627]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.10.17:456][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.10.17:456][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.10.17:456][627]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:10:17 PM)
+[2019.05.04-02.10.17:456][627]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.10.17:475][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018554s)
+[2019.05.04-02.10.17:476][627]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.10.17:476][627]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2019.05.04-02.10.17:476][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.019786s)
+[2019.05.04-02.10.17:509][627]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.10.17:546][627]LogInit: FAudioDevice initialized.
+[2019.05.04-02.10.17:546][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.10.17:583][627]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.10.17:593][627]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.10.17
+[2019.05.04-02.10.17:594][627]LogWorld: Bringing up level for play took: 0.008433
+[2019.05.04-02.10.17:610][627]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.10.17:615][627]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 1.109
+[2019.05.04-02.10.17:616][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.10.32:511][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.10.32:512][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.10.32:565][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.10.32:566][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.10.32:614][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.10.32:653][630]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.05.04-02.10.37:054][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.10.45:483][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.10.48:046][402]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.05.04-02.10.56:624][748]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.11.11:554][366]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.11.14:208][469]Cmd: TRANSACTION UNDO
+[2019.05.04-02.11.14:208][469]LogEditorTransaction: Undo Move Actors
+[2019.05.04-02.11.15:564][516]Cmd: TRANSACTION UNDO
+[2019.05.04-02.11.15:564][516]LogEditorTransaction: Undo Move Actors
+[2019.05.04-02.11.26:070][958]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.11.26:098][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.11.26:098][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.11.26:098][958]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:11:26 PM)
+[2019.05.04-02.11.26:098][958]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.11.26:117][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018994s)
+[2019.05.04-02.11.26:119][958]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.11.26:120][958]LogPlayLevel: PIE: World Init took: (0.002153s)
+[2019.05.04-02.11.26:120][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.021500s)
+[2019.05.04-02.11.26:185][958]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.11.26:302][958]LogInit: FAudioDevice initialized.
+[2019.05.04-02.11.26:302][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.11.26:346][958]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.11.26:361][958]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.11.26
+[2019.05.04-02.11.26:363][958]LogWorld: Bringing up level for play took: 0.014528
+[2019.05.04-02.11.26:379][958]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.11.26:385][958]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues -0.129
+[2019.05.04-02.11.26:385][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.11.44:057][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.11.44:058][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.11.44:103][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.11.44:103][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.11.44:138][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.11.44:175][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.04-02.11.45:304][117]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.11.59:204][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie88)
+[2019.05.04-02.11.59:407][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie88)
+[2019.05.04-02.12.03:916][ 53]Cmd: TRANSACTION UNDO
+[2019.05.04-02.12.03:916][ 53]LogEditorTransaction: Undo Move Actors
+[2019.05.04-02.12.17:627][746]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.12.18:008][761]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.12.23:386][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.12.23:436][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.12.23:436][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.12.23:436][ 29]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:12:23 PM)
+[2019.05.04-02.12.23:436][ 29]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.12.23:455][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019172s)
+[2019.05.04-02.12.23:456][ 29]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.12.23:457][ 29]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2019.05.04-02.12.23:457][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.020451s)
+[2019.05.04-02.12.23:487][ 29]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.12.23:519][ 29]LogInit: FAudioDevice initialized.
+[2019.05.04-02.12.23:520][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.12.23:548][ 29]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.12.23:553][ 29]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.12.23
+[2019.05.04-02.12.23:554][ 29]LogWorld: Bringing up level for play took: 0.004415
+[2019.05.04-02.12.23:566][ 29]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.12.23:568][ 29]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 1.048
+[2019.05.04-02.12.23:568][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.12.49:651][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.12.49:652][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.12.49:696][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.12.49:696][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.12.49:754][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.12.49:793][639]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.05.04-02.12.51:705][739]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.12.53:234][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie88)
+[2019.05.04-02.12.53:359][815]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.05.04-02.12.54:595][875]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.12.56:243][955]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.12.56:300][955]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (hedgie88)
+[2019.05.04-02.12.57:282][  0]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.12.57:352][  0]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.13.08:957][585]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.13.12:332][752]LogEditorViewport: Clicking on Component (LMB): SphereComponent (Sphere)
+[2019.05.04-02.13.14:877][878]Cmd: TRANSACTION UNDO
+[2019.05.04-02.13.14:877][878]LogEditorTransaction: Undo Move Components
+[2019.05.04-02.13.15:702][912]LogEditorViewport: Clicking on Component (SHIFT LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.13.19:105][ 75]Cmd: TRANSACTION UNDO
+[2019.05.04-02.13.19:105][ 75]LogEditorTransaction: Undo Move Components
+[2019.05.04-02.13.20:758][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.13.21:369][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-02.13.22:324][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hedgie90)
+[2019.05.04-02.13.23:060][249]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.13.30:666][633]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.13.30:710][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.13.30:710][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.13.30:710][633]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:13:30 PM)
+[2019.05.04-02.13.30:710][633]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.13.30:729][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018883s)
+[2019.05.04-02.13.30:730][633]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.13.30:730][633]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2019.05.04-02.13.30:730][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.019999s)
+[2019.05.04-02.13.30:761][633]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.13.30:795][633]LogInit: FAudioDevice initialized.
+[2019.05.04-02.13.30:795][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.13.30:824][633]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.13.30:828][633]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.13.30
+[2019.05.04-02.13.30:829][633]LogWorld: Bringing up level for play took: 0.003703
+[2019.05.04-02.13.30:840][633]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.13.30:842][633]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.317
+[2019.05.04-02.13.30:842][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.13.59:693][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.13.59:694][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.13.59:749][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.13.59:750][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.13.59:800][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.13.59:838][412]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.05.04-02.14.04:940][671]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.14.05:288][685]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.14.11:366][979]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.14.11:457][980]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.14.13:145][ 61]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.14.13:249][ 62]LogEditorViewport: Clicking on Actor (double click): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.14.14:327][113]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.14.14:412][114]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.14.22:533][512]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.14.22:565][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.14.22:565][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.14.22:565][512]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:14:22 PM)
+[2019.05.04-02.14.22:565][512]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.14.22:584][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018215s)
+[2019.05.04-02.14.22:584][512]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.14.22:585][512]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2019.05.04-02.14.22:585][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.019390s)
+[2019.05.04-02.14.22:619][512]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.14.22:651][512]LogInit: FAudioDevice initialized.
+[2019.05.04-02.14.22:651][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.14.22:682][512]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.14.22:686][512]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.14.22
+[2019.05.04-02.14.22:686][512]LogWorld: Bringing up level for play took: 0.003245
+[2019.05.04-02.14.22:699][512]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.14.22:703][512]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.173
+[2019.05.04-02.14.22:703][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.15.39:540][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.15.39:541][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.15.39:591][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.15.39:592][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.15.39:641][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.15.39:687][390]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.04-02.15.43:978][607]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.15.44:202][614]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.04-02.15.45:280][664]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
+[2019.05.04-02.15.45:369][665]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (GhoulMesh)
+[2019.05.04-02.15.50:874][942]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.15.50:951][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.15.50:951][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.15.50:951][942]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:15:50 PM)
+[2019.05.04-02.15.50:951][942]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.15.50:974][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022473s)
+[2019.05.04-02.15.50:975][942]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.15.50:975][942]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2019.05.04-02.15.50:975][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.023682s)
+[2019.05.04-02.15.51:007][942]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.15.51:039][942]LogInit: FAudioDevice initialized.
+[2019.05.04-02.15.51:040][942]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.15.51:069][942]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.15.51:076][942]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.15.51
+[2019.05.04-02.15.51:077][942]LogWorld: Bringing up level for play took: 0.006184
+[2019.05.04-02.15.51:090][942]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.15.51:094][942]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.558
+[2019.05.04-02.15.51:094][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.23:665][951]LogNet: Browse: /Game/Maps/Archie
+[2019.05.04-02.16.23:680][951]LogLoad: LoadMap: /Game/Maps/Archie
+[2019.05.04-02.16.23:760][951]LogLinker: Warning: Can't find file '/Game/Maps/Archie_BuiltData'
+[2019.05.04-02.16.23:760][951]LogLinker: Warning: Can't find file for asset '/Game/Maps/Archie_BuiltData' while loading ../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Archie.umap.
+[2019.05.04-02.16.23:760][951]LoadErrors: Error: /Game/Maps/Archie : Can't find file for asset. /Game/Maps/Archie_BuiltData
+[2019.05.04-02.16.23:769][951]LogLinker: Warning: Can't find file '/Game/Maps/Archie_BuiltData'
+[2019.05.04-02.16.23:769][951]LogLinker: Warning: Can't find file for asset '/Game/Maps/Archie_BuiltData' while loading ../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Maps/Archie.umap.
+[2019.05.04-02.16.23:877][951]LogLinker: Warning: Can't find file '/Game/Maps/Archie_BuiltData'
+[2019.05.04-02.16.23:877][951]LoadErrors: Failed to load /Game/Maps/Archie_BuiltData.Archie_BuiltData Referenced by PersistentLevel
+[2019.05.04-02.16.23:877][951]LogLinker: Warning: Can't find file for asset '/Game/Maps/Archie_BuiltData' while loading NULL.
+[2019.05.04-02.16.24:572][951]LogAIModule: Creating AISystem for world Archie
+[2019.05.04-02.16.24:572][951]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.16.24:609][951]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Archie.Archie up for play (max tick rate 0) at 2019.05.03-22.16.24
+[2019.05.04-02.16.24:610][951]LogWorld: Bringing up level for play took: 0.036792
+[2019.05.04-02.16.24:615][951]LogLoad: Took 0.934178 seconds to LoadMap(/Game/Maps/Archie)
+[2019.05.04-02.16.26:305][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.26:305][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.16.26:357][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.16.26:357][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.26:405][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.16.26:444][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.05.04-02.16.30:590][260]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-02.16.30:636][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.30:637][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-02.16.30:637][260]PIE: New page: PIE session: FirstPersonExampleMap1withstatues (May 3, 2019, 6:16:30 PM)
+[2019.05.04-02.16.30:637][260]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues
+[2019.05.04-02.16.30:657][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020239s)
+[2019.05.04-02.16.30:658][260]LogAIModule: Creating AISystem for world FirstPersonExampleMap1withstatues
+[2019.05.04-02.16.30:658][260]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2019.05.04-02.16.30:658][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues (0.021492s)
+[2019.05.04-02.16.30:688][260]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.04-02.16.30:720][260]LogInit: FAudioDevice initialized.
+[2019.05.04-02.16.30:720][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.16.30:753][260]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.05.04-02.16.30:762][260]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues up for play (max tick rate 0) at 2019.05.03-22.16.30
+[2019.05.04-02.16.30:763][260]LogWorld: Bringing up level for play took: 0.007990
+[2019.05.04-02.16.30:777][260]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.04-02.16.30:780][260]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap1withstatues 0.241
+[2019.05.04-02.16.30:781][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.45:256][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.45:256][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.16.45:301][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-02.16.45:301][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.FirstPersonExampleMap1withstatues:PersistentLevel.FirstPersonExampleMap1withstatues'
+[2019.05.04-02.16.45:334][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-02.16.45:372][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.05.04-02.16.46:991][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-02.16.47:270][100]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap1withstatueF148B172499D84E523EF03875ABF64DD.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues.umap'
+[2019.05.04-02.16.47:935][100]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/FirstPersonExampleMap1withstatue5F7D6D854C7722CACAC029834331F6D7.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/FirstPersonBP/Maps/FirstPersonExampleMap1withstatues_BuiltData.uasset'
+[2019.05.04-02.16.49:378][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/arms" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/arms.uasset" SILENT=true
+[2019.05.04-02.16.49:439][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/arms6E9BF314444EE3141431B18EC0184E92.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/arms.uasset'
+[2019.05.04-02.16.49:528][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/aunt" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/aunt.uasset" SILENT=true
+[2019.05.04-02.16.49:603][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/aunt016ED34C4EDE11DF2FEF41BA43058C42.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/aunt.uasset'
+[2019.05.04-02.16.49:671][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/cousin" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/cousin.uasset" SILENT=true
+[2019.05.04-02.16.49:744][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/cousinC5B7AF9749C3156530988A97911C2568.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/cousin.uasset'
+[2019.05.04-02.16.49:803][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/grandma" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandma.uasset" SILENT=true
+[2019.05.04-02.16.49:835][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/grandmaD5ACC4F44BD3C985E5C3A89DD5117CF5.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandma.uasset'
+[2019.05.04-02.16.49:891][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/grandpa" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandpa.uasset" SILENT=true
+[2019.05.04-02.16.49:941][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/grandpa43052C554DCD04F76861A6A876647D0E.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/grandpa.uasset'
+[2019.05.04-02.16.50:006][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/greatUncle" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncle.uasset" SILENT=true
+[2019.05.04-02.16.50:041][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/greatUncle701F46694314E84C19E5F9B145995EB3.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/greatUncle.uasset'
+[2019.05.04-02.16.50:094][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/toddrick" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/toddrick.uasset" SILENT=true
+[2019.05.04-02.16.50:126][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/toddrick5CBDB92C4C21F41EA0BBF9A7617546D6.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/toddrick.uasset'
+[2019.05.04-02.16.50:180][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Import/uncle" FILE="../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncle.uasset" SILENT=true
+[2019.05.04-02.16.50:215][131]LogSavePackage: Moving '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Saved/uncleC44878E34F6300695ACBFAB2794286F5.tmp' to '../../../../../../Users/meador28/Documents/GitHub/In-The-Maze/In_The_Maze/Content/Props/Import/uncle.uasset'
